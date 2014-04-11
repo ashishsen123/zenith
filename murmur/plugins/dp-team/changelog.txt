@@ -1,0 +1,10 @@
+2012.10.08
+
+	* Added French translations
+		* @author Fx Benard
+		* @link http://fxbenard.com/
+		
+	Added:
+	
+	* languages/dp-team-fr_FR.mo
+	* languages/dp-team-fr_FR.po

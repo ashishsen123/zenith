@@ -1,0 +1,12 @@
+.theme-image {
+    float: left; margin: 0; padding:0; width: 294px;height: 250px;margin-bottom: 15px; clear: both;
+}
+.theme-desc {
+    margin: 0;float: right;width: 540px;height: 250px;margin-bottom: 15px;
+}
+.theme-title a{
+    font-size: 18px;
+    text-decoration: none !important;
+    font-weight: bold;
+    color: #333;
+}

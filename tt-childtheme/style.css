@@ -1,0 +1,112 @@
+/*
+Theme Name: Polished
+Description: A Child Theme of Twenty Twelve Theme from tipsandtricks-hq.com
+Theme URI: http://www.tipsandtricks-hq.com
+Author: Tips and Tricks HQ
+Author URI: http://www.tipsandtricks-hq.com
+Template: twentytwelve
+Version: 1.0.0
+*/
+@import url(../twentytwelve/style.css);
+body.custom-font-enabled
+	{
+font-family: Georiga, serif; 
+}
+
+body .site
+	{
+		padding:0px;
+	}	
+
+.site-header
+	{
+		padding:30px;
+	}
+.wrapper
+		{
+			padding:24px;
+		}	
+.main-navigation div.nav-menu > ul
+	{
+		border-top:0px;
+		border-bottom:2px solid black;
+		display:inline-block !imporatant;
+		text-align:left;
+		width:100%;
+	}
+input[type="submit"]
+	{
+		background:url() #21759b;
+		color:#fff;
+    }				   
+.main-navigation .current_page_item > a
+	{
+		color:#21759b;
+		font-weight:bold;
+	}
+article.sticky .featured-post
+	{
+		border-top:0px;
+		border-bottom:0px;
+		color:#757575;
+		font-size:0.928571429rem;
+		line-height:3.692307692;
+		margin-bottom:1.714285714rem;
+		text-align:center;
+	}	
+.entry-header .entry-title
+	{
+		line-height:1.2;
+		font-weight:bold;
+	}	
+.entry-header .entry-title a
+	{
+		text-decoration:none;
+		color:black;
+	}
+.entry-content li
+	{
+		margin:0 0 0 2.571428571rem;
+		font-family:arial, sans-serif
+	}	
+.entry-content a:visited, .comment-content a:visited 
+{
+	color: #fff;
+}	
+p
+	{
+		margin:0 0 1.714285714rem;
+		line-height:1.714285714;
+		font-family:arial,sans-serif;
+	}
+.site-content article 
+	{	
+		margin-bottom: 72px;
+		margin-bottom: 5.142857rem;
+		padding-bottom: 24px;
+		padding-bottom: 1.714286rem;
+		border-bottom: 2px solid black;
+	}	
+.site-info
+	{
+		text-align:center;
+		font-size:25px;
+		text-decoration:none;
+	}
+#colophon
+		{
+			background-color:#686868;
+		}
+a
+	{
+		text-decoration:none;
+	}
+footer[role="contentinfo"] a 
+	{
+		color:#fff;
+	}	
+footer[role="contentinfo"] a:hover 
+	{
+		color:#fff;
+	}		
+		

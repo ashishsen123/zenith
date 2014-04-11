@@ -1,0 +1,99 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in echo
+#: mountaincreek/404.php:8
+msgid "404 Error Not Found"
+msgstr ""
+
+#. Text in function
+#: mountaincreek/functions.php:121
+msgid "Add New Photo "
+msgstr ""
+
+#. Text in function
+#: mountaincreek/functions.php:121
+msgid "Add Photo"
+msgstr ""
+
+#. Text in function
+#: mountaincreek/functions.php:121
+msgid "Add a Slideshow to the Home Page"
+msgstr ""
+
+#. Text in echo
+#: mountaincreek/404.php:10
+msgid "Apologies, but the page you requested could not be found."
+msgstr ""
+
+#. Text in echo
+#: mountaincreek/archive.php:8
+msgid "Archive for"
+msgstr ""
+
+#. Text in echo
+#: mountaincreek/author.php:18
+msgid "Articles by "
+msgstr ""
+
+#. Text in echo
+#: mountaincreek/index.php:12
+msgid "By"
+msgstr ""
+
+#. Text in echo
+#: mountaincreek/category.php:8
+msgid "Category: "
+msgstr ""
+
+#. Text in function
+#: mountaincreek/functions.php:121
+msgid "Edit Photo "
+msgstr ""
+
+#. Text in function
+#: mountaincreek/functions.php:121
+msgid "Home Page Slideshow."
+msgstr ""
+
+#. Text in function
+#: mountaincreek/functions.php:121
+msgid "Left Sidebar"
+msgstr ""
+
+#. Text in function
+#: mountaincreek/functions.php:121
+msgid "No Photo Found"
+msgstr ""
+
+#. Text in function
+#: mountaincreek/functions.php:121
+msgid "No Photos Found In Trash"
+msgstr ""
+
+#. Text in function
+#: mountaincreek/functions.php:121
+msgid "Photo"
+msgstr ""
+
+#. Text in function
+#: mountaincreek/functions.php:121
+msgid "Search Photo"
+msgstr ""
+
+#. Text in echo
+#: mountaincreek/search.php:8
+msgid "Search Result for"
+msgstr ""
+
+#. Text in function
+#: mountaincreek/functions.php:121
+msgid "Slideshow"
+msgstr ""
+
+#. Text in function
+#: mountaincreek/functions.php:121
+msgid "View Photo"
+msgstr ""

@@ -1,0 +1,223 @@
+# Copyright (C) 2012 Poloray Theme Pro
+# This file is distributed under the same license as the WordPress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Poloray Theme Pro 1.0\n"
+"Report-Msgid-Bugs-To: admin@inkthemes.comPOT-Creation-Date: 2012-01-11 12:47:23+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2012-08-18 12:29+0530\n"
+"Last-Translator: \n"
+"Language-Team: InkThemes.com <support@inkthemes.com>\n"
+"POT-Creation-Date: \n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: india\n"
+
+#: 404.php:14
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr ""
+
+#: 404.php:30
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching, or one of the links below, can help."
+msgstr ""
+
+#: 404.php:36
+msgid "Most Used Categories."
+msgstr ""
+
+#: 404.php:26
+msgid "Blog Archives."
+msgstr ""
+
+#: blog.php:63
+#: loop.php:34
+#: single.php:59
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: search.php:34
+msgid "Nothing Found."
+msgstr ""
+
+#: search.php:40
+#: sidebar.php:6
+msgid "Categories"
+msgstr ""
+
+#: sidebar.php:12
+msgid "Archives"
+msgstr ""
+
+#: 404.php:44
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: archive.php:20
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:22
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:24
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: attachment.php:25
+msgid "Return to %s"
+msgstr ""
+
+#: attachment.php:28
+msgid "&larr;"
+msgstr ""
+
+#: attachment.php:33
+msgid "By %2"
+msgstr ""
+
+#: attachment.php:33
+msgid "View all posts by %s"
+msgstr ""
+
+#: attachment.php:38
+msgid "Published %2$s"
+msgstr ""
+
+#: attachment.php:43
+msgid "Full size is %s pixels"
+msgstr ""
+
+#: attachment.php:43
+msgid "Link to full-size image"
+msgstr ""
+
+#: attachment.php:46
+#: attachment.php:91
+msgid "Edit"
+msgstr ""
+
+#: attachment.php:88
+msgid "Continue reading &rarr;"
+msgstr ""
+
+#: attachment.php:89
+msgid "Pages:"
+msgstr ""
+
+#: author.php:13
+msgid "Author Archives: %s"
+msgstr ""
+
+#: author.php:45
+msgid "About %s"
+msgstr ""
+
+#: index.php:35
+#: archive.php:42
+#: author.php:66
+#: category.php:40
+#: search.php:49
+#: tags.php:32
+#: blog.php:58
+#: single.php:65
+msgid "&larr; Older posts"
+msgstr ""
+
+#: index.php:37
+#: archive.php:44
+#: author.php:68
+#: category.php:42
+#: search.php:51
+#: tags.php:34
+#: blog.php:60
+#: single.php:67
+msgid "Newer posts &rarr;"
+msgstr ""
+
+#: search.php:14
+msgid "Search Results for: %s"
+msgstr ""
+
+#: single.php:49
+msgid "Post Tagged with"
+msgstr ""
+
+#: tag.php:16
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: inkthemes-functions.php:30
+msgid "Main Menu"
+msgstr ""
+
+#: inkthemes-functions.php:54
+#: inkthemes-functions.php:56
+msgid "Home"
+msgstr ""
+
+#: inkthemes-functions.php:145
+msgid "Page"
+msgstr ""
+
+#: inkthemes-functions.php:206
+msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the permalink"
+msgstr ""
+
+#: inkthemes-functions.php:208
+msgid "This entry was posted in %1$s. Bookmark the permalink"
+msgstr ""
+
+#: inkthemes-functions.php:210
+msgid "Bookmark the permalink"
+msgstr ""
+
+#: inkthemes-functions.php:241
+msgid "Primary Widget Area"
+msgstr ""
+
+#: inkthemes-functions.php:243
+msgid "The primary widget area"
+msgstr ""
+
+#: inkthemes-functions.php:251
+msgid "Secondary Widget Area"
+msgstr ""
+
+#: inkthemes-functions.php:253
+msgid "The secondary widget area"
+msgstr ""
+
+#: inkthemes-functions.php:261
+msgid "First Footer Widget Area"
+msgstr ""
+
+#: inkthemes-functions.php:263
+msgid "The first footer widget area"
+msgstr ""
+
+#: inkthemes-functions.php:271
+msgid "Second Footer Widget Area"
+msgstr ""
+
+#: inkthemes-functions.php:273
+msgid "The second footer widget area"
+msgstr ""
+
+#: inkthemes-functions.php:281
+msgid "Third Footer Widget Area"
+msgstr ""
+
+#: inkthemes-functions.php:283
+msgid "The third footer widget area"
+msgstr ""
+
+#: inkthemes-functions.php:291
+msgid "Fourth Footer Widget Area"
+msgstr ""
+
+#: inkthemes-functions.php:293
+msgid "The fourth footer widget area"
+msgstr ""
+

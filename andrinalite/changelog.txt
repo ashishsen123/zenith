@@ -1,0 +1,141 @@
+== Changelog ==
+
+= Theme Name: Andrina Lite =
+
+= Version: 2.5.9 =
+* Theme url changed.
+* Removed query_posts and used wp_query instead.
+* Removed wp_enqueue_script('jquery').
+* Escaped all urls.
+* Option added for disable default front page.
+* Site title and site description added in header, if site logo uploaded via theme option, site title and description will be disappeared.
+* Removed analytic option.
+* All supporting function hooked into after_setup_theme hook.
+* Added plugins notification for recommends plugin.
+* Replace preg_replace function with ereg_replace.
+
+= Version: 2.5.8 =
+* Show feature image in single.php and page.php fixed.
+
+= Version: 2.5.6 =
+* Debug error in theme-options.php fixed.
+* Declare copyright in style.css.
+* Post navigation in single.php added.
+
+= Version: 2.5.5 =
+* Translation Issue fixed.
+* Code optimized.
+
+= Version: 2.5.4 =
+* Removed @package WordPress? @subpackage Andrina . Used @package Andrina instead, now fixed.
+* Themes are REQUIRED to use 'wp_title' filter, to filter wp_title() (RECOMMENDED), now fixed
+* Removed hard coded meta tags.
+* Style issue on theme option button, now fixed.
+
+= Version: 2.5.3 =
+
+* Fixed get_theme_data is deprecated since version 3.4! error.
+
+= Version: 2.5.2 =
+
+* Styleseet optimized.
+
+* Some files documented. 
+
+* Missing text domain fixed.
+
+* Footer spacing resolved.
+
+* Comment depth issue fixed.
+
+= Version: 2.5.1 =
+
+* Fixed Textdomain in frontpage.php file.
+
+* Longer Comments Exceeds the block. 
+
+* Remove function exists from few functions.
+
+= Version: 2.4 =
+
+* Fixed wp_link_pages() in single.php.
+
+* Fixed twenty ten reference. 
+
+* Fixed still some text that are not translatable.
+
+* Removed unwanted tags from style.css
+
+* Fixed correct hook for inkthemes_register_custom_menu.
+
+* Fixed Pages with comments disabled should not display any kind of "comments are closed" message.
+
+* Fixed Themes must use checked() / selected().
+
+* Fixed Themes are required to use esc_attr() for text inputs and esc_html().
+
+* 
+
+= Version: 2.3 =
+
+* Fixed Untranslated text domain.
+
+* Fixed Themes must support posts using <!--nextpage--> using  wp_link_pages().
+
+* Fixed pages have comments enabled.
+
+* Fixed wp_head() must be placed directly before </head>. 
+
+* Fixed themes have other theme's text domain.
+
+* Fixed The code for loading language files, adding theme support for thumbnails should be placed in a function that hooks into after_setup_theme
+
+* Fixed You must make use of WordPress? core-bundled scripts.
+
+* Fixed password protected post displayed two messages.
+
+= Version: 2.2 =
+
+* Fixed some strings translateble.
+
+* Fixed some functions prefix.
+
+* Fixed enqueue java script files add hook.
+
+* Fixed constant directory path.
+
+* Fixed wrong textdomain added.
+
+* Fixed uses other jquery to core bundle.
+
+* Fixed text translation issue.
+
+* Fixed comment reply script call back issue
+
+* Fixed some add_action hook issue.
+
+* Fixed single array to save options in theme options issue.
+
+* Remove unnecessary code from comments.php.
+
+* Modified template directory.
+
+* Fixed after_theme_setup action issue.
+
+* Fixed hard coded date format issue.
+
+* Fixed h1 tag issue in tag.php
+
+* Fixed 404 loop issue in 404.php
+
+* Fixed title function issue in attachment.php.
+
+* Removed others references form attachment .php.
+
+* Fixed calling twice loop in author.php
+
+* Fixed default favicon issue.
+
+= Version: 2.1 =
+
+* Squirrel Theme is created on 1/01/2012.

@@ -1,0 +1,286 @@
+/*
+Theme Name: D5 Business Line
+Theme URI: http://d5creation.com/theme/businessline/
+
+Author: D5 Creation
+Author URI: http://d5creation.com/
+
+Description: D5 Business Line is a theme for Small Business Companies. Customizable Background, Slide Images and other options will give the WordPress Driven Site an attractive look.  D5 Business Line is super elegant and Professional Theme which will create the business widely expressed.  Right and Footer Sidebar will be usable for showing the widgets and PlunIns items. Full Wide page can be used for showing showcase or other pages. D5 Creation's Support will be with you, Always! 
+
+Version: 2.2.2
+
+Tags: gray, light, two-columns, right-sidebar, fixed-width, custom-header, custom-background, custom-menu, threaded-comments, sticky-post, front-page-post-form, full-width-template, theme-options 
+
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+D5 Business Line Theme, Copyright 2012-2013 d5creation.com
+D5 Business Line is distributed under the terms of the GNU GPL
+
+Text Domain: d5businessline
+
+*/
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+caption, th, td {
+	text-align: right;
+}
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+	margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+	float:left;
+	margin: 5px 20px 20px 0;
+}
+
+.alignright {
+	float:right;
+	margin: 5px 0 20px 20px;
+}
+
+a img.alignleft {
+	float:left;
+	margin: 5px 20px 20px 0;
+}
+
+a img.alignnone {
+	margin: 5px 0 20px 20px;
+}
+
+a img.alignright {
+	float:right;
+	margin: 5px 0 20px 20px;
+}
+
+a img.aligncenter {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.wp-caption.alignnone {
+	margin: 5px 0 20px 20px;
+}
+
+.wp-caption.alignright {
+	margin: 5px 0 20px 20px;
+}
+
+.wp-caption.alignleft {
+	margin: 5px 20px 20px 0;
+}
+
+/* =Structure
+----------------------------------------------- */
+
+img.site-logo {
+	float: right;
+}
+
+#content {
+	float:right;
+}
+
+#left-sidebar {
+	float: left;
+}
+
+.facebook-link, 
+.twitter-link, 
+.youtube-link, 
+.li-link, 
+.blog-link {
+	float: right;
+}
+
+.twitter-link {
+	margin: 0 40px 0 20px;
+}
+
+.li-link {
+	margin: 0 20px 0 40px;
+}
+
+/* Menu Elements 
+------------------------------------------------------------- */
+
+#d5businessline-main-menu {
+	float: left;
+}
+
+.menu {
+	float: left;
+}
+
+#d5businessline-main-menu li {
+	float: right;
+}
+
+#d5businessline-main-menu li ul {
+	float: right;
+}
+
+#d5businessline-main-menu ul ul, 
+.sub-menu, .sub-menu ul ul {
+	float: right;
+	right: 0;
+	left: auto;
+}
+
+#d5businessline-main-menu ul ul ul {
+	right: 100%;
+	left: auto;
+}
+
+#d5businessline-main-menu ul ul a {
+	text-align: right;
+}
+
+/* Wedget Elements 
+------------------------------------------------------------- */
+
+#left-sidebar .widget {
+	float: left;
+}
+
+#left-sidebar .widget li {
+	padding: 5px 17px 5px 0;
+}
+
+#footer-sidebar .widgets, #footer-sidebar .first-widget {
+	float: right;
+}
+
+#footer-sidebar .widgets {
+	margin-right:63.33px;
+	margin-left: auto;
+}
+
+#footer-sidebar .widget li {
+	padding: 5px 17px 5px 0;
+}
+
+/* Design Elements 
+------------------------------------------------------------- */
+
+/*-------------------- Recommended  */
+
+ul, ol {
+	margin: 0 25px 10px 0;
+}
+
+address {
+	text-align: left;
+}
+
+/*-------------------- */
+
+input[type="text"], 
+textarea, input#s, 
+input[type="password"] {
+	border-right: 1px solid #999999;
+	border-left: 1px solid #FFFFFF;
+}
+
+button, 
+input[type="reset"], 
+input[type="button"], 
+input[type="submit"] {
+	background:-webkit-gradient( linear, right top, right bottom, color-stop(0.05, #11a5db), color-stop(1, #085d96) );
+}
+
+button:hover, 
+input[type="reset"]:hover, 
+input[type="button"]:hover, 
+input[type="submit"]:hover {
+	background:-webkit-gradient( linear, right top, right bottom, color-stop(0.05, #085d96), color-stop(1, #11a5db) );
+}
+
+.post.sticky, 
+.sticky {
+	background: url("images/sticky.png") no-repeat scroll left top #F2F2F2;
+}
+
+.featured-box-first {
+	float:right;
+}
+
+.featured-box {
+	margin-right: 63px;
+	float:right;
+	margin-left: auto;
+}
+
+blockquote {
+	border-right:10px solid #ccc;
+	border-left:10px solid #ccc;
+}
+
+blockquote:before {
+	margin-left:.20em;
+	margin-right: auto;
+}
+
+blockquote:after {
+	margin-right:.20em;
+	margin-left: auto;
+}
+
+#container .attachment-thumbnail {
+	margin: 8px 0 10px 15px;
+	float:right;
+}
+
+h1.page-title, 
+h1.arc-post-title {
+	text-align: right;
+}
+
+h2.post-title, 
+h2.comments, 
+h3#reply-title, 
+h2.post-title-color {
+	text-align: right;
+}
+
+.floatright {
+	float: right;
+	text-align:right;
+}
+
+.floatleft {
+	float: left;
+	text-align:left;
+}
+
+#page-nav .alignleft {
+	text-align:left;
+}
+
+#page-nav .alignright {
+	text-align:right;
+}
+
+ol.commentlist, 
+ul.commentlist {
+	margin-right:0;
+	margin-left: auto;
+}
+
+#commentsbox img.avatar {
+	right: 0;
+	left: auto;
+}
+
+#commentsbox .commentlist li.comment {
+	padding: 5px 50px 0 0;
+}
+
+#commentsbox .commentlist .children li {
+	margin: 0 -25px 0 0;
+}
+

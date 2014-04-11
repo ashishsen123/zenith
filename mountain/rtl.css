@@ -1,0 +1,423 @@
+/*
+Theme Name: Mountain Creek
+Theme URI: http://www.gorillathemes.com/demo/mountaincreek/
+Author: Gorilla Themes
+Author URI: http://gorillathemes.com
+Description: Mountain Creek theme for WordPress with custom slideshow and beautiful dark theme.
+Version: 1.0
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: brown, tan, white, light,two-columns, left-sidebar, responsive, custom-header, custom-menu, featured-images, translation-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+/*****CSS RESET*******/
+
+
+blockquote:before {
+   
+    margin-left: .25em;
+   
+}
+
+blockquote:after {
+   
+    margin-right: .25em;
+    
+}
+
+td {
+    border-top: 1px solid #746464;
+    padding: 6px 0 6px 10px;
+}
+
+/** General Layout **/
+
+
+.sidebar {
+    
+    float: right;
+    margin: 0px 36px 0px 0px;
+   
+}
+
+#content {
+    
+    float: left;
+    margin: 0px 0px 0px 36px;
+   
+}
+
+#content-blog {
+    
+    float: left;
+    
+}
+
+#footer {
+    margin: 0px 3px 0px 0px;
+    
+}
+
+/** Header Styles **/
+
+/*#header img { position: absolute; top: 14px; }*/
+#header .title {
+   
+    right: 274px;
+	left:auto;
+
+}
+
+#header .header-bot {
+   
+    right: auto;
+	left: 0px
+    
+}
+
+#header .header-bot .social {
+    float: left;
+    
+}
+
+#header .header-bot .social li {
+   
+    float: right;
+    
+    margin: 0px 9px 0px 0px;
+    
+}
+
+#header .header-bot .search {
+    
+    margin: 0px 15px 0px 0px;
+    float: left;
+}
+
+#header .header-bot .search #s {
+    
+    padding: 3px 10px 3px 0px;
+   
+}
+
+/** Sidebar Styles **/
+
+
+
+
+.sidebar .sidebar-nav li a {
+    
+    padding: 0px 8px 0px 0px;
+}
+
+
+
+
+.sidebar .sidebar-nav li ul {
+    
+    right: 160px;
+	left:auto;
+   
+}
+
+
+
+.sidebar .sidebar-nav li ul li a {
+    padding: 0px 15px 0px 25px;
+}
+
+.ie7 .sidebar .sidebar-nav li ul {
+    right: 159px;
+	left: auto;
+}
+
+
+
+.sidebar .hot-news h4 {
+    
+    padding: 0px 10px 0px 0px;
+    
+}
+
+
+/** Content Styles **/
+.photo-nav {
+    
+    float: right;
+    
+}
+
+.photo-nav-sec {
+    
+    float: right;
+    
+}
+
+.gallery .gallery-caption {
+    margin-right: 0;
+}
+
+
+.col-two {
+    
+    float: left;
+    
+}
+
+.col-two .slider .slides_container {
+   
+    padding-right: 1px;
+}
+
+.col-two .slider .slidesjs-pagination {
+    
+    left: 20px;
+	right:auto;
+   
+}
+
+.col-two .slider .slidesjs-pagination li {
+    float: right;
+    margin: 0px 0px 0px 7px;
+    
+}
+
+
+.col-two .slider .slide {
+    
+    right: 0px;
+	left:auto;
+    
+}
+
+.col-two .slider .desc {
+    
+    right: 0px;
+	left:auto;
+   
+}
+
+.col-two .slider .desc h4 {
+    
+    padding-right: 10px;
+    
+}
+
+.col-two .post-wrap .post .meta-common {
+    float:right;
+    
+    margin: 0px 2px 10px 0px;
+}
+
+.col-two .post-wrap.single .post-data img.alignleft {
+    float: right;
+    margin: 0px 0px 10px 10px;
+}
+
+.col-two .post-wrap.single .post-data img.alignright {
+    float: left;
+    margin: 0px 10px 10px 0px;
+}
+
+.col-two .post-wrap.single .post-data ul {
+    padding: 0px 20px 0px 0px;
+    
+}
+
+.col-two .post-wrap.single .post-data ol {
+    padding: 0px 20px 0px 0px;
+   
+}
+.col-two .post .cats span {
+    
+    float: right;
+    margin: 0px 0px 0px 5px;
+}
+.col-two .post .cats li {
+    float: right;
+    margin: 0px 0px 0px 5px;
+    
+}
+
+.col-two .post .catspage span {
+   
+    float: right;
+    margin: 0px 0px 0px 5px;
+}
+
+.col-two .post .catspage li {
+    float: right;
+    margin: 0px 0px 0px 5px;
+   
+}
+
+.col-two .post .tags span {
+    
+    float: right;
+    margin: 0px 0px 0px 5px;
+}
+
+.col-two .post .tags li {
+    float: right;
+    margin: 0px 0px 0px 5px;
+    
+}
+
+.col-two .post .post-data li {
+    margin: 0px 0px 0px 5px;
+}
+
+.col-two #respond label {
+   
+    padding: 0px 4px 0px 40px;
+}
+
+.col-two .comment-author img {
+    float: right;
+    margin: 0px 0px 6px 10px;
+}
+
+
+.col-two .comment-meta {
+    
+    left: 0px;
+	right:auto;
+    
+}
+
+.col-two .comment-reply-link {
+    
+    text-align: left;
+    padding: 0px 0px 0px 20px;
+}
+
+.col-two #cancel-comment-reply-link {
+    
+    text-align: left;
+    padding: 0px 0px 0px 20px;
+    
+}
+
+.col-two ol li ul {
+    
+    margin: 0px 20px 10px 0px;
+    
+}
+
+
+
+.col-two #pagination a {
+    
+    margin: 0px 0px 0px 5px;
+    
+}
+
+.col-two #pagination a.btn.current {
+    
+    margin: 0px 0px 0px 5px;
+   
+}
+
+.col-two #pagination a:hover, .col-two #pagination a:focus {
+    
+    margin: 0px 0px 0px 5px;
+    
+}
+
+/** Footer Styles **/
+
+#foot .block {
+    text-align: right;
+    float: right;
+    
+    padding: 85px 20px 35px 0;
+    margin-right: 14px;
+}
+
+#foot .last {
+    margin-left: 0;
+   
+    padding-right: 35px!important;
+    
+}
+
+#foot .sidebarLiContent ul li {
+    
+    padding: 2px 36px 0 0;
+    
+}
+
+#foot input.s {
+    float: right;
+    
+    text-align: right;
+   
+    padding: 6px 15px 4px 0;
+  
+}
+
+#foot input.searchsubmit {
+   
+    margin-left: 0;
+   float: left;
+    
+}
+
+#foot  .hot-news h4 {
+    
+    padding: 0px 10px 0px 0px;
+    
+}
+
+
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 0 20px 20px;
+}
+
+.alignright {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+.alignleft {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignright {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignnone {
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignleft {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+
+.wp-caption.alignnone {
+    margin: 5px 0 20px 20px;
+    
+}
+
+.wp-caption.alignleft {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption.alignright {
+    margin: 5px 20px 20px 0;
+}
+
+
+
+
+
+

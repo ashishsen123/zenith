@@ -1,0 +1,75 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: dp-team\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-02 10:27+0100\n"
+"PO-Revision-Date: 2012-10-08 10:34+0100\n"
+"Last-Translator: FxB <fx@fxbenard.com>\n"
+"Language-Team: FxB <fx@fxbenard.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e;_n;"
+"_x;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: dp-team.php:89
+msgid "Team"
+msgstr "Équipe"
+
+#: dp-team.php:90
+msgid "Team Member"
+msgstr "Membre de l'équipe"
+
+#: dp-team.php:91
+msgid "All Team Members"
+msgstr "Tous les membres"
+
+#: dp-team.php:92 dp-team.php:93
+msgid "Add New Member"
+msgstr "Ajouter membre"
+
+#: dp-team.php:94
+msgid "Edit"
+msgstr "Modifier"
+
+#: dp-team.php:95
+msgid "Edit Member"
+msgstr "Modifier membre"
+
+#: dp-team.php:96
+msgid "New Member"
+msgstr "Nouveau membre"
+
+#: dp-team.php:97
+msgid "No members found"
+msgstr "Aucun membre n'a été trouvé"
+
+#: dp-team.php:98
+msgid "No members found in Trash"
+msgstr "Aucun membre trouvé dans la Corbeille"
+
+#: dp-team.php:99
+msgid "Search Team"
+msgstr "Rechercher l'équipe"
+
+#: dp-team.php:100
+msgid "View Member"
+msgstr "Voir membre"
+
+#: dp-team.php:131
+msgid "Team Member&#39;s Details"
+msgstr "Détails des membres de l'équipe"
+
+#: dp-team.php:156
+msgid "Member&#39;s Position"
+msgstr "Position du membre"
+
+#: dp-team.php:161
+msgid "The job title, position, or responsibility of the member."
+msgstr "L'intitulé du poste, la position ou la responsabilité du membre."

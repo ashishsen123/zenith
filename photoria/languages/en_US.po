@@ -1,0 +1,330 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Photoria v2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-12-16 09:32:49+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: author.php:11
+#@ wpzoom
+msgid "Author"
+msgstr ""
+
+#: comments.php:17
+#: comments.php:30
+#@ wpzoom
+msgid "Comments"
+msgstr ""
+
+#: comments.php:31
+#@ wpzoom
+msgid "You can be the first one to leave a comment"
+msgstr ""
+
+#: comments.php:41
+#@ wpzoom
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:41
+#, php-format
+#@ wpzoom
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:46
+#@ wpzoom
+msgid "You must be"
+msgstr ""
+
+#: comments.php:46
+#@ wpzoom
+msgid "logged in"
+msgstr ""
+
+#: comments.php:46
+#@ wpzoom
+msgid "to post a comment."
+msgstr ""
+
+#: comments.php:53
+#@ wpzoom
+msgid "Logged in as"
+msgstr ""
+
+#: comments.php:53
+#@ wpzoom
+msgid "Log out"
+msgstr ""
+
+#: comments.php:57
+#@ wpzoom
+msgid "Name"
+msgstr ""
+
+#: comments.php:60
+#@ wpzoom
+msgid "E-Mail"
+msgstr ""
+
+#: comments.php:63
+#@ wpzoom
+msgid "Website"
+msgstr ""
+
+#: comments.php:68
+#@ wpzoom
+msgid "Comment"
+msgstr ""
+
+#: comments.php:70
+#@ wpzoom
+msgid "Add Comment"
+msgstr ""
+
+#: footer.php:18
+#@ wpzoom
+msgid "Copyright"
+msgstr ""
+
+#: footer.php:18
+#@ wpzoom
+msgid "All Rights Reserved"
+msgstr ""
+
+#: functions/theme/widgets/featuredposts.php:60
+#@ wpzoom
+msgid "no comments"
+msgstr ""
+
+#: functions/theme/widgets/featuredposts.php:60
+#@ wpzoom
+msgid "1 comment"
+msgstr ""
+
+#: functions/theme/widgets/featuredposts.php:60
+#@ wpzoom
+msgid "% comments"
+msgstr ""
+
+#: page.php:19
+#: single.php:34
+#: template-full-width.php:24
+#: template-sidebar-left.php:26
+#@ wpzoom
+msgid "EDIT"
+msgstr ""
+
+#: page.php:26
+#: single.php:58
+#: template-full-width.php:31
+#: template-sidebar-left.php:33
+#@ wpzoom
+msgid "Pages"
+msgstr ""
+
+#: searchform.php:3
+#@ wpzoom
+msgid "search..."
+msgstr ""
+
+#: searchform.php:3
+#@ wpzoom
+msgid "Go"
+msgstr ""
+
+#: single.php:60
+#@ wpzoom
+msgid "Tags"
+msgstr ""
+
+#: archive.php:8
+#, php-format
+#@ wpzoom
+msgid "Category: <strong>%s</strong>"
+msgstr ""
+
+#: archive.php:9
+#, php-format
+#@ wpzoom
+msgid "Tag: <strong>%s</strong>"
+msgstr ""
+
+#: archive.php:10
+#, php-format
+#@ wpzoom
+msgid "Archive for <strong>%s</strong>"
+msgstr ""
+
+#: archive.php:11
+#, php-format
+#@ wpzoom
+msgid "Author: <strong>%s</strong>"
+msgstr ""
+
+#: archive.php:12
+#@ wpzoom
+msgid "Archives"
+msgstr ""
+
+#: footer.php:17
+#@ wpzoom
+msgid "Portfolio WordPress Theme"
+msgstr ""
+
+#: functions/theme/widgets/social.php:12
+#@ wpzoom
+msgid "Custom WPZOOM Widget that displays links to social sharing websites."
+msgstr ""
+
+#: functions/theme/widgets/social.php:18
+#@ wpzoom
+msgid "WPZOOM: Social Widget"
+msgstr ""
+
+#: functions/theme/widgets/social.php:91
+#@ wpzoom
+msgid "Widget Title:"
+msgstr ""
+
+#: functions/wpzoom/assets/js/shortcode-generator/dialog.php:45
+#@ wpzoom
+msgid "Customize the Shortcode"
+msgstr ""
+
+#: functions/wpzoom/assets/js/shortcode-generator/dialog.php:54
+#@ wpzoom
+msgid "Preview"
+msgstr ""
+
+#: functions/wpzoom/assets/js/shortcode-generator/dialog.php:68
+#@ wpzoom
+msgid "Error"
+msgstr ""
+
+#: functions/wpzoom/assets/js/shortcode-generator/dialog.php:71
+#@ wpzoom
+msgid "Your version of theme does not yet support shortcodes."
+msgstr ""
+
+#: functions/wpzoom/assets/js/shortcode-generator/dialog.php:76
+#@ wpzoom
+msgid "Looks like your active theme is not from WPZOOM. The shortcode generator only works with themes from WPZOOM."
+msgstr ""
+
+#: functions/wpzoom/components/admin/settings-page.php:119
+#@ wpzoom
+msgid "For more information:"
+msgstr ""
+
+#: functions/wpzoom/components/admin/settings-page.php:120
+#@ wpzoom
+msgid "<a href=\"http://www.wpzoom.com/support/documentation\" target=\"_blank\">Documentation and Tutorials</a>"
+msgstr ""
+
+#: functions/wpzoom/components/admin/settings-page.php:121
+#@ wpzoom
+msgid "<a href=\"http://www.wpzoom.com/forum/\" target=\"_blank\">Support Forums</a>"
+msgstr ""
+
+#: functions/wpzoom/components/medialib-uploader.php:24
+#@ wpzoom
+msgid "Upload"
+msgstr ""
+
+#: functions/wpzoom/components/medialib-uploader.php:43
+#@ wpzoom
+msgid "View File"
+msgstr ""
+
+#: functions/wpzoom/components/medialib-uploader.php:55
+#@ wpzoom
+msgid "WPZOOM Exporter"
+msgstr ""
+
+#: functions/wpzoom/components/shortcodes/shortcodes.php:603
+#: functions/wpzoom/components/shortcodes/shortcodes.php:653
+#: functions/wpzoom/components/shortcodes/shortcodes.php:669
+#, php-format
+#@ wpzoom
+msgid "My %s Profile"
+msgstr ""
+
+#: functions/wpzoom/components/shortcodes/shortcodes.php:624
+#@ wpzoom
+msgid "Subscribe to our RSS feed"
+msgstr ""
+
+#: functions/wpzoom/components/video-thumb.php:86
+#@ wpzoom
+msgid "<strong>NOTICE!&nbsp;&nbsp;Unable to fetch video thumbnail</strong><br/>Either an invalid embed code was provided, or there is no thumbnail available for the specified video&hellip;<br/><small id=\"wpz_autothumb_remind\"><strong>REMINDER:</strong> You can always manually upload a featured image via the WordPress Media Uploader.</small>"
+msgstr ""
+
+#: functions/wpzoom/wpzoom.php:106
+#@ wpzoom
+msgid "WPZOOM"
+msgstr ""
+
+#: functions/wpzoom/wpzoom.php:107
+#@ wpzoom
+msgid "Theme Options"
+msgstr ""
+
+#: functions/wpzoom/wpzoom.php:110
+#@ wpzoom
+msgid "Framework Update"
+msgstr ""
+
+#: loop.php:50
+#@ wpzoom
+msgid "There are no posts to display"
+msgstr ""
+
+#: page.php:37
+#: single.php:89
+#: template-full-width.php:46
+#: template-sidebar-left.php:46
+#@ wpzoom
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: pagination.php:12
+#@ wpzoom
+msgid "&larr;  Previous"
+msgstr ""
+
+#: pagination.php:13
+#@ wpzoom
+msgid "Next  &rarr;"
+msgstr ""
+
+#: search.php:7
+#@ wpzoom
+msgid "Search Results for: "
+msgstr ""
+
+#: single.php:31
+#@ wpzoom
+msgid "By "
+msgstr ""
+
+#: single.php:32
+#: single.php:33
+#@ wpzoom
+msgid " on "
+msgstr ""
+

@@ -1,0 +1,33 @@
+* Version: 1.3.5
+***************************************
+1. Fixed: theme copyright issue.
+2. Fixed: resources license issue.
+3. Fixed: stylesheet uri issue.
+4. Fixed: translatable text issue.
+5. Fixed: hard coded social link code issue.
+6. Fixed: footer copyright issue.
+7. Fixed: 404 searchform issue.
+8. Fixed: front-page.php issue.
+9. Fixed: wrong textdomain issue.
+10.Fixed: deprecated constant isue.
+11.Fixed: warning issue on style.css tags.
+12.Fixed: screenshot size issue.
+13.Fixed: php/script issue.
+14.Fixed: recommend issue.
+
+* Version: 1.3.4
+***************************************
+1. Theme url changed.
+2. Removed query_posts and used wp_query instead.
+3. Removed wp_enqueue_script('jquery').
+4. Escaped all urls.
+5. Option added for disable default front page.
+6. Site title and site description added in header, if site logo uploaded via theme option, site title and description will be disappeared.
+7. Removed analytic option.
+8. All supporting function hooked into after_setup_theme hook.
+9. Added plugins notification for recommends plugin.
+10.Replace preg_replace function with ereg_replace.
+11.Options made for values save in a single array.
+12.Code spaces removed and code formated.
+13.Removed bundled fonts
+14.Removed cufon jquery and ui.

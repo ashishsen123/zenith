@@ -1,0 +1,26 @@
+#theme-options-wrap
+{
+    width: 700px;
+    padding: 0 3em 3em 3em;
+    background: white;
+}
+
+#theme-options-wrap #icon-tools
+{
+    position: relative;
+    top: -10px;
+}
+
+#theme-options-wrap input, #theme-options-wrap textarea
+{
+    padding: .4em .7em .4em .7em;
+}
+
+#theme-options-wrap h2
+{
+    font: italic normal normal 24px/29px Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+    margin: 0;
+    padding: 14px 15px 3px 0;
+    line-height: 35px;
+    text-shadow: rgba(255,255,255,1) 0 1px 0;
+}

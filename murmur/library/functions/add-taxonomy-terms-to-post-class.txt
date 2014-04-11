@@ -1,0 +1,19 @@
+add_filter( 'post_class', 'mysite_post_class', 10, 3 );
+if( !function_exists( 'mysite_post_class' ) ) {
+    /**
+     * Append taxonomy terms to post class.
+     * @since 2010-07-10
+     */
+    function mysite_post_class( $classes, $class, $ID ) {
+		$taxonomy = 'status';
+		$terms = get_the_terms( (int) $ID, $taxonomy );
+		if( !empty( $terms ) ) {
+			foreach( (array) $terms as $order => $term ) {
+				if( !in_array( $term->slug, $classes ) ) {
+					$classes[] = $term->slug;
+				}
+			}
+		}
+        return $classes;
+    }
+}

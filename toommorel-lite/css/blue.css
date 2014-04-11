@@ -1,0 +1,43 @@
+/*=======================================================*/
+/*---------------------Default Style---------------------*/
+/*=======================================================*/
+ a{
+color:#07365f;
+text-decoration:none;
+}
+
+a:hover {
+	color: #0099FF;
+}
+.bg_line{
+	background:#f0f0f0 url(../images/body-line.png) repeat-x;
+
+}
+.read_more {
+	color:#35638f;
+}
+.wrap .header_line{
+	background:url(../images/slier-back.png); 
+}
+.main_wrapper {
+	background:#FFFFFF;
+}
+#menu .ddsmoothmenu li a {
+	color:#07365f !important;
+	background:url(../images/blue-bullet_list.png)0 6px no-repeat;
+}
+.slider_wrapper {
+	background: url(../images/slider-bg-blue.png) repeat-y;
+}
+.paging a:hover, .paging a:hover, .paging a.current {
+	background: #07365F;
+}
+.paging a{
+	background: #d8cece;
+}
+/*=======================================================*/
+/*----------------------Footer Style---------------------*/
+/*=======================================================*/
+.hr_big {
+	background:#c1cdd7;
+}

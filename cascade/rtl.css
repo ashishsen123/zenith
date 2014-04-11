@@ -1,0 +1,812 @@
+/**
+ * Theme Name: Cascade
+ * Theme URI: http://devpress.com/themes/cascade/
+ * Description: An advance, responsive theme with 4 menus, 12 layouts, per post/page layout option, custom post templates/stylesheets, built-in breadcrumbs, pagination, and 12 widget areas.
+ * Version: 0.1.3
+ * Author: Tung Do
+ * Author URI: http://devpress.com/
+ * Tags: theme-options, threaded-comments, microformats, translation-ready, rtl-language-support, one-column, two-columns, three-columns, left-sidebar, right-sidebar, fixed-width, featured-images, full-width-template, post-formats, theme-options, threaded-comments, custom-background
+ * License: GNU General Public License v2.0
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ */
+ 
+
+ 
+
+
+/**
+ * Reset
+ ************************************************/
+
+ul, ol {
+	
+	margin: 12px 20px 12px 0;
+	}
+
+	ul li {
+		background: url(images/disc.png) 0 7px no-repeat;
+		padding: 0 26px 0 0;
+		}
+
+ol {
+	margin-right: 46px;
+	}
+	
+	
+
+
+
+dl dd {
+	margin: 0 40px 0 0 ;
+	}
+
+blockquote {
+	
+	padding: 0 60px 0 0;
+	}
+
+	
+		
+	
+
+.alignleft,
+.wp-caption.alignleft {
+	float: right;
+	margin: 12px 0 12px 20px;
+	}
+
+.alignright,
+.wp-caption.alignright {
+	float: left;
+	margin: 12px 20px 12px 0;
+	}
+
+
+
+
+
+
+	.layout-3c-c .alignleft,
+	.layout-3c-l .alignleft,
+	.layout-3c-r .alignleft,
+	.layout-hl-2c-l .alignleft,
+	.layout-hl-2c-r .alignleft,
+	.layout-hr-2c-l .alignleft,
+	.layout-hr-2c-r .alignleft,
+	.layout-3c-c .alignright,
+	.layout-3c-l .alignright,
+	.layout-3c-r .alignright,
+	.layout-hl-2c-l .alignright,
+	.layout-hl-2c-r .alignright,
+	.layout-hr-2c-l .alignright,
+	.layout-hr-2c-r .alignright {
+		margin-left: 0;
+		margin-right: 0;
+		}
+
+form {}
+
+	label{
+		
+		padding: 0 20px 0 0;
+		}
+
+
+	input[type="date"],
+	input[type="datetime"],
+	input[type="datetime-local"],
+	input[type="email"],
+	input[type="month"],
+	input[type="number"],
+	input[type="password"],
+	input[type="search"],
+	input[type="tel"],
+	input[type="text"],
+	input.input-text,
+	input[type="time"],
+	input[type="url"],
+	input[type="week"],
+	select,
+	textarea{
+		
+		text-align: right;
+		
+		}
+		
+	th, td {
+		
+		border-left: 1px solid #f2f2f2;
+		
+		text-align: right;
+		
+		}
+		
+
+
+	
+/**
+ * Containers
+ ************************************************/
+
+div#menu-primary,
+	#header,
+	div#menu-secondary,
+	#main .wrap,
+		#content,
+			.hfeed,
+#footer {
+	
+	float: right;
+	
+	}
+
+/* Container Variations */
+
+	.layout-2c-r #content {
+			float: left;
+			}
+					
+	.layout-3c-c #content {
+			right: 320px;
+			left:auto;
+			
+			}
+					
+	.layout-3c-r #content {
+			float: left;
+				}
+						
+/* More Container Variations Specifically for Header Left/Right Layouts */
+				
+		
+			
+			.layout-hl-1c .container-wrap,
+			.layout-hl-2c-l .container-wrap,
+			.layout-hl-2c-r .container-wrap,
+			.layout-hr-1c .container-wrap,
+			.layout-hr-2c-l .container-wrap,
+			.layout-hr-2c-r .container-wrap {
+				
+				background-position: right top;
+				float: right;
+				
+				}
+				
+				
+			.layout-hl-1c #header,
+			.layout-hl-2c-l #header,
+			.layout-hl-2c-r #header {
+					
+				float: right;
+					
+				}
+					
+			.layout-hr-1c #header,
+			.layout-hr-2c-l #header,
+			.layout-hr-2c-r #header {
+					
+				float: left;
+					
+				}
+					
+					
+				
+			.layout-hl-1c #main,
+			.layout-hl-2c-l #main,
+			.layout-hl-2c-r #main,
+			.layout-hr-1c #main,
+			.layout-hr-2c-l #main,
+			.layout-hr-2c-r #main {
+					
+					float: right;
+					
+					}
+					
+					
+					
+			.layout-hl-2c-r #content,
+			.layout-hr-2c-r #content {
+					float: left;
+						
+				}
+
+/**
+ * Global Menus
+ ************************************************/
+
+	div.menu li {
+		float:right;
+		
+		}
+	
+		
+		div.menu li:hover ul {
+			right: 0;
+			left:auto;
+			
+			}
+			
+/**
+ * Primary Menu
+ ************************************************/
+ 
+
+	
+		div#menu-primary div.menu li,
+		div#menu-secondary div.menu li {
+					
+			text-align: right;
+			}
+					
+					
+		div#menu-primary div.menu li a.with-ul,
+		div#menu-secondary div.menu li a.with-ul {
+			padding-left: 60px;
+						}
+		div#menu-primary div.menu li a span.sub-indicator,
+		div#menu-secondary div.menu li a span.sub-indicator {
+						
+			right: auto;
+			left: 40px;
+						
+						}
+					
+						
+				/* Dropdowns */
+				
+		div#menu-primary div.menu ul ul,
+		div#menu-secondary div.menu ul ul {
+			text-align: right;
+					
+				}
+					
+					
+		div#menu-primary div.menu ul ul ul,
+		div#menu-secondary div.menu ul ul ul {
+			margin-right: 1px;
+			}								
+
+/**
+ * Header Primary Menu
+ ************************************************/
+	
+div#menu-header-primary {
+	float: right;
+}
+			
+div#menu-header-primary div.menu li a span.sub-indicator {
+							
+			left: 20px;
+			right:auto;
+							
+			}
+							
+/* Menu Header Primary Dropdowns */
+			
+						
+				
+.layout-hr-1c div.menu li li:hover ul,
+.layout-hr-2c-l div.menu li li:hover ul,
+.layout-hr-2c-r div.menu li li:hover ul {
+				right: auto !important;
+				left: 100% !important;
+				}
+ 
+/**
+ * Content
+ ************************************************/
+
+.breadcrumbs {
+	
+	float: right;
+	
+	}
+	
+		
+#cascade-featured-slider {
+	
+	float: right;
+	
+	}
+
+
+div.hentry .entry-title,
+div.hentry .entry-content,
+div.hentry .entry-meta {
+	
+	float: right;
+	
+	}
+		
+	div.hentry .entry-meta abbr.published,
+	div.hentry .entry-meta span.author.vcard,
+	div.hentry .entry-meta a.permalink,
+	div.hentry .entry-meta a.comments-link,
+	div.hentry .entry-meta span.post_tag {
+		margin-left: 15px;
+		}
+
+	div.hentry .entry-meta span.author.vcard a {
+		background: url(images/icon-person.png) no-repeat;
+		padding: 0 26px 0 0;
+		}
+	div.hentry .entry-meta a.permalink {
+		background: url(images/icon-link.png) 0 1px no-repeat;
+		padding: 0 26px 0 0;
+		}
+	div.hentry .entry-meta abbr.published {
+		background: url(images/icon-clock.png) no-repeat;
+		padding: 0 24px 0 0;
+		}
+	div.hentry .entry-meta span.category {
+		background: url(images/icon-tag.png) 0 1px no-repeat;
+		padding: 0 23px 0 0;
+		text-transform: none;
+		}
+	
+	div.hentry .entry-meta a.post-edit-link {
+		
+		margin-right: 15px;
+		}
+		
+	.page-links {
+		
+		float: right;
+		
+		}
+	.page-links a {
+			
+			margin: 12px 0 0 5px;
+			
+			}
+						
+	
+.gallery-item{
+				
+				float: right;
+				margin: 18px 40px 18px 0;
+				
+				}
+				
+/**
+ * Archive Content
+ ************************************************/
+ 
+.loop-meta {
+	
+	float: right;
+	
+	}
+
+	
+	
+		
+	.loop-meta.vcard img.avatar {
+		
+		float: right;
+		margin: 18px 0 18px 20px;
+		}
+
+/* Content Navigation / Pagination */
+
+.loop-nav,
+.pagination,
+.comment-pagination {
+	
+	float: right;
+	}
+/* Threaded Comments */
+
+				
+
+	#comments li li .comment-wrap{margin-right: 40px;}
+	#comments li li li .comment-wrap{margin-right: 80px;}
+	#comments li li li li .comment-wrap{margin-right: 120px;}
+	#comments li li li li li .comment-wrap{margin-right: 160px;}
+	#comments li li li li li li .comment-wrap{margin-right: 200px;}
+	#comments li li li li li li li .comment-wrap{margin-right: 240px;}
+	#comments li li li li li li li li .comment-wrap{margin-right: 280px;}
+	#comments li li li li li li li li li .comment-wrap{margin-right: 320px;}
+	#comments li li li li li li li li li li .comment-wrap{margin-right: 360px;}
+					
+/* Remove Threaded Comments Styling for Small-column Layouts */
+			
+				
+					
+	.layout-3c-c #comments li li .comment-wrap,
+	.layout-3c-l #comments li li .comment-wrap,
+	.layout-3c-r #comments li li .comment-wrap,
+	.layout-hl-2c-l #comments li li .comment-wrap,
+	.layout-hl-2c-r #comments li li .comment-wrap,
+	.layout-hr-2c-l #comments li li .comment-wrap,
+	.layout-hr-2c-r #comments li li .comment-wrap {
+			margin-right: 0 !important;
+						}
+
+					/* Comment Header */
+					 
+					
+	.comment-header img.avatar{
+							
+		float: right;
+							
+		margin: 0 0 0 20px;
+			}
+	.comment-meta{
+		padding: 0 56px 9px 76px;
+		}
+							
+	.comment-reply-link,
+	.comment-reply-login {
+									
+		margin: 0 20px 0 0;
+		left:40px;
+		right: auto;
+									
+		}
+
+	
+							
+								
+	#comments .comment-text ol,
+	#comments .comment-text ul {
+		margin: 12px 20px 12px 0;
+			}
+	#comments .comment-text ol {
+									
+		margin-right: 46px;
+				}
+				
+	#comments .comment-text ol ol {list-style: upper-roman;}
+	#comments .comment-text ol ol ol {list-style: lower-roman;}
+	#comments .comment-text ol ol ol ol {list-style: upper-alpha;}
+	#comments .comment-text ol ol ol ol ol {list-style: lower-alpha;}
+
+	#comments .comment-text ul li{
+									
+			padding: 0 26px 0 0;
+			}
+
+								
+								
+	#comments li li.comment-wrap .comment-text{
+										
+			margin-right: -40px;
+			padding-right: 80px;
+					}
+/**
+ * Widgets
+ ************************************************/
+ 
+	.widget {
+	
+		float: right;
+	
+	}
+	
+	
+	.widget ul ul{
+		border-right: 1px dotted #eee;
+		padding-right: 20px;
+					}
+				
+					
+/* Calendar Widget .widget-calendar */
+
+	.sidebar-4c .widget #wp-calendar th,
+	.sidebar-4c .widget #wp-calendar td,
+	.sidebar-5c .widget #wp-calendar th,
+	.sidebar-5c .widget #wp-calendar td {
+			padding: 5px 2px 5px 0;
+			}
+
+
+			
+/* Search Widget */
+		
+
+		
+	.widget-search input[type="text"] {
+			
+		padding-right: 20px;
+		padding-left: 48px;
+				
+		}
+	.widget-search input[type="submit"] {
+			
+				left: 20px;
+				right:auto;
+			
+				}
+				
+
+	
+	
+/* Text Widget */
+	
+
+
+	.widget .textwidget ul {
+		
+		margin: 12px 20px 12px 0 ;
+		
+		}
+		
+	.widget .textwidget ul li {
+			
+			
+		padding: 0 26px 0 0;
+		}
+			
+	.widget .textwidget ul ul {
+		margin: 12px 20px 12px 0 ;
+			}
+			
+	.widget .textwidget ol {
+		
+		margin: 12px 46px 12px 0;
+		
+		}
+		
+
+/* Sidebar Subisidiary Widget Styles */
+		
+
+		
+	
+
+	.sidebar-2c .widget,
+	.sidebar-3c .widget,
+	.sidebar-4c .widget,
+	.sidebar-5c .widget {
+			
+			float: right;
+			
+			margin-right: 40px;
+			}
+	
+	
+/**
+ * Sidebars
+ ************************************************/
+ 
+.sidebar {
+	float: right;
+	
+	}
+	
+
+	
+#sidebar-primary,
+#sidebar-secondary {
+	
+	float: left;
+	
+	}
+	
+
+
+.layout-2c-r #sidebar-primary,
+.layout-2c-r #sidebar-secondary {
+	clear: right;
+	float: right;
+	}
+	
+
+.layout-3c-c #sidebar-secondary {
+	right:auto;
+	left: 360px;
+	}
+		
+.layout-3c-l #sidebar-primary,
+.layout-3c-l #sidebar-secondary {
+	
+	float: right;
+	}						
+
+.layout-hl-2c-r #sidebar-primary,
+.layout-hl-2c-r #sidebar-secondary,
+.layout-hr-2c-r #sidebar-primary,
+.layout-hr-2c-r #sidebar-secondary {
+	clear: right;
+	float: right;
+	}
+
+/**
+ * Footer
+ ************************************************/
+ 
+
+		
+	#footer p {
+			
+			margin-left: 10px;
+			
+			}
+
+	div#menu-footer {
+			float: left;
+			
+			}
+			
+
+/**
+ * Responsive CSS
+ ************************************************/
+
+@media only screen and (max-width: 999px) { /* Styles for medium to small tablets */
+
+/**
+ * Basic Reset
+ ************************************************/
+ 
+.layout-2c-l .alignleft,
+.layout-2c-l .alignright,
+.layout-2c-r .alignleft,
+.layout-2c-r .alignright,
+.layout-hl-1c .alignleft,
+.layout-hl-1c .alignright,
+.layout-hr-1c .alignleft,
+.layout-hr-1c .alignright {
+	
+	margin-left: 0;
+	margin-right: 0;
+	}
+	
+/**
+ * Containers Reset
+ ************************************************/
+ 
+.layout-3c-c #sidebar-secondary {
+	left:auto;
+	right: auto;
+	}
+
+
+/**
+ * Primary and Secondary Menu Resets
+ ************************************************/
+ 
+div#menu-primary .wrap,
+div#menu-secondary .wrap{
+	
+	text-align: right;
+
+	}
+
+	
+		
+	
+		div#menu-primary div.menu li a,
+		div#menu-secondary div.menu li a {
+			
+			padding-right: 66px;
+			}
+		
+			
+			div#menu-primary div.menu li li a,
+			div#menu-secondary div.menu li li a {
+				
+				padding-right: 92px;
+				}
+				div#menu-primary div.menu li li li a,
+				div#menu-secondary div.menu li li li a {
+					
+					padding-right: 118px;
+					}
+					div#menu-primary div.menu li li li li a,
+					div#menu-secondary div.menu li li li li a {
+						
+						padding-right: 144px;
+						}
+						div#menu-primary div.menu li li li li li a,
+						div#menu-secondary div.menu li li li li li a {
+							
+							padding-right: 160px;
+							}
+				
+		/* Responsive Dropdown Reset */
+
+		div#menu-primary div.menu ul ul,
+		div#menu-secondary div.menu ul ul, 
+		div#menu-header-primary div.menu ul ul {
+			
+			left: auto !important;
+			left: auto !important;
+		
+			}
+			
+				
+	
+/**
+ * Menu Header Primary Reset
+ ************************************************/
+ 
+	div#menu-header-primary div.menu li a {
+		
+		padding-right: 26px;
+		}
+		
+	
+	div#menu-header-primary div.menu li li a {
+			
+		padding: 12px 52px 12px 0;
+			}
+	div#menu-header-primary div.menu li li li a {
+				
+		padding-right: 78px;
+			}
+	div#menu-header-primary div.menu li li li li a {
+					
+		padding-right: 104px;
+		}
+	div#menu-header-primary div.menu li li li li li a {
+						
+		padding-right: 130px;
+			}
+		
+	
+	
+/**
+ * Content Reset
+ ************************************************/
+ 
+			
+
+				
+					
+			
+					
+/**
+ * Comments Template Reset
+ ************************************************/
+			
+				
+					#comments li li .comment-wrap {
+						margin-right: 0 !important;
+						}
+	div#menu-footer div.menu li a {
+		
+		padding: 6px 26px 6px 0;
+					}
+					
+
+} /* End @media max-width: 999px */
+
+@media only screen and (max-width: 679px) { /* Styles for smart phones */
+
+/**
+ * Basic Reset
+ ************************************************/
+ 
+.layout-default .alignleft,
+.layout-default .alignright,
+.layout-1c .alignleft,
+.layout-1c .alignright {
+	
+	margin-left: 0;
+	margin-right: 0;
+	}
+
+
+/**
+ * Content Reset
+ ************************************************/
+ .gallery-item {
+				margin-right: 0;
+				
+				}
+ 
+/**
+ * Widgets Reset
+ ************************************************/
+	.sidebar-2c .widget,
+	.sidebar-3c .widget,
+	.sidebar-4c .widget,
+	.sidebar-5c .widget {
+		margin-right: 0;
+		
+		}
+		
+		

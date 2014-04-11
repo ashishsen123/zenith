@@ -1,0 +1,26 @@
+2012.11.09
+
+	* Added update_count_callback to taxonomies to make sure they behave like tags.
+
+2012.11.03
+
+	* Fixed Media Gallery conflict with DP Portfolio. View http://devpress.com/murmur-portfolio-fix/
+
+2012.10.14
+
+	* Removed post class modification and custom image size registrations
+
+2012.10.12
+
+	* Added French translations
+		* @author Fx Benard
+		* @link http://fxbenard.com/
+
+2012.10.08
+
+	* Added "type" custom taxonomy
+	
+	Files Edited:
+	
+	* dp-portfolio.php
+	* languages/( all files )

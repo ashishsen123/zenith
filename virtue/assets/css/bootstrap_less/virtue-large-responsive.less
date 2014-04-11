@@ -1,0 +1,93 @@
+
+
+// REPEAT VARIABLES & MIXINS
+// -------------------------
+// Required since we compile the responsive stuff separately
+
+@import "variables.less"; // Modify this for custom colors, font-sizes, etc
+@import "mixins.less";
+
+// MEDIA QUERIES
+// ------------------
+
+// Large desktops
+@import "responsive-1200px-min.less";
+
+
+@media (min-width: 1200px) {
+    body:after {content: 'widescreen' !important; display: none;}
+
+    .onecolumn .grid_item.product {
+    	width: 1148px;	
+	}
+	.onecolumn .grid_item {
+    	width: 1150px;	
+	}
+	.twocolumn .grid_item {
+		width: 565px;	
+	}
+	.twocolumn .grid_item.blog_item {
+		width: 562px;	
+	}
+	.threecolumn .grid_item {
+		width: 370px;	
+	}
+	.fourcolumn .grid_item {
+		width:272px;	
+	}
+	.fivecolumn .grid_item {
+		width:214px;	
+	}
+	.sixcolumn .grid_item {
+		width:175px;	
+	}
+	.sevencolumn .grid_item {
+		width:147px;	
+	}
+	.fourcolumn .grid_item.product, .fourcolumn .grid_item.blog_item {
+		width:270px;	
+	}
+	.s-onecolumn .grid_item.product {
+    	width: 748px;	
+	}
+	.s-twocolumn .grid_item {
+	width: 365px;
+	}
+	.s-threecolumn .grid_item {
+		width: 236px;
+	}
+	.s-fourcolumn .grid_item {
+		width: 172px;
+	}
+	.s-fivecolumn .grid_item {
+		width:134px;	
+	}
+	.s-sixcolumn .grid_item {
+		width:108px;	
+	}
+	.s-sevencolumn .grid_item {
+		width:90px;	
+	}
+	.s-threecolumn .grid_item.product, .s-threecolumn .grid_item.blog_item {
+		width: 234px;
+	}
+	#portfolio-carousel.threecolumn .portfolio_item {
+	height: 370px;
+	}
+	#portfolio-carousel.fourcolumn .portfolio_item {
+	height: 272px;
+	}
+	.portrait-grid .flexslider, .portrait-grid img {
+		margin: 0;
+	}
+	//hack for gallery in fullpost mode
+	.fullpost .twocolumn .grid_item {
+		width: 365px;	
+	}
+	.fullpost .threecolumn .grid_item {
+		width: 236px;	
+	}
+	.fullpost .fourcolumn .grid_item {
+		width: 172px;	
+	}
+}

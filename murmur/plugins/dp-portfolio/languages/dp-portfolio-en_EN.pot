@@ -1,0 +1,182 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sonorous WordPress Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-08 14:09+0700\n"
+"PO-Revision-Date: 2012-10-08 14:09+0700\n"
+"Last-Translator: Tung Do <contact@devpress.com>\n"
+"Language-Team:  <contact@devpress.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e;_n;_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: dp-portfolio.php:101
+msgid "Portfolio"
+msgstr ""
+
+#: dp-portfolio.php:102
+msgid "Project"
+msgstr ""
+
+#: dp-portfolio.php:103
+msgid "All Projects"
+msgstr ""
+
+#: dp-portfolio.php:104
+#: dp-portfolio.php:105
+msgid "Add New Project"
+msgstr ""
+
+#: dp-portfolio.php:106
+msgid "Edit"
+msgstr ""
+
+#: dp-portfolio.php:107
+msgid "Edit Project"
+msgstr ""
+
+#: dp-portfolio.php:108
+msgid "New Project"
+msgstr ""
+
+#: dp-portfolio.php:109
+msgid "View Project"
+msgstr ""
+
+#: dp-portfolio.php:110
+msgid "Search Portfolio"
+msgstr ""
+
+#: dp-portfolio.php:111
+msgid "No projects found"
+msgstr ""
+
+#: dp-portfolio.php:112
+msgid "No projects found in Trash"
+msgstr ""
+
+#: dp-portfolio.php:140
+msgctxt "plural"
+msgid "Roles"
+msgstr ""
+
+#: dp-portfolio.php:141
+msgctxt "singular"
+msgid "Role"
+msgstr ""
+
+#: dp-portfolio.php:142
+msgid "Search Roles"
+msgstr ""
+
+#: dp-portfolio.php:143
+msgid "All Roles"
+msgstr ""
+
+#: dp-portfolio.php:144
+msgid "Edit Role"
+msgstr ""
+
+#: dp-portfolio.php:145
+msgid "Update Role"
+msgstr ""
+
+#: dp-portfolio.php:146
+msgid "Add New Role"
+msgstr ""
+
+#: dp-portfolio.php:147
+msgid "New Role Name"
+msgstr ""
+
+#: dp-portfolio.php:150
+msgid "Separate roles with commas. Roles are used to describe the type of services involved in the project. For examples: wireframing, designing, and coding."
+msgstr ""
+
+#: dp-portfolio.php:151
+msgid "Add or remove roles"
+msgstr ""
+
+#: dp-portfolio.php:152
+msgid "Choose from the most used roles"
+msgstr ""
+
+#: dp-portfolio.php:153
+msgid "Roles"
+msgstr ""
+
+#: dp-portfolio.php:173
+msgctxt "plural"
+msgid "Types"
+msgstr ""
+
+#: dp-portfolio.php:174
+msgctxt "singular"
+msgid "Type"
+msgstr ""
+
+#: dp-portfolio.php:175
+msgid "Search Types"
+msgstr ""
+
+#: dp-portfolio.php:176
+msgid "All Types"
+msgstr ""
+
+#: dp-portfolio.php:177
+msgid "Edit Type"
+msgstr ""
+
+#: dp-portfolio.php:178
+msgid "Update Type"
+msgstr ""
+
+#: dp-portfolio.php:179
+msgid "Add New Type"
+msgstr ""
+
+#: dp-portfolio.php:180
+msgid "New Type Name"
+msgstr ""
+
+#: dp-portfolio.php:183
+msgid "Separate types with commas. Types are used to describe the project type. For examples: residential, commercial, and government."
+msgstr ""
+
+#: dp-portfolio.php:184
+msgid "Add or remove types"
+msgstr ""
+
+#: dp-portfolio.php:185
+msgid "Choose from the most used types"
+msgstr ""
+
+#: dp-portfolio.php:186
+msgid "Types"
+msgstr ""
+
+#: dp-portfolio.php:243
+msgid "Project Info"
+msgstr ""
+
+#: dp-portfolio.php:268
+msgid "Client"
+msgstr ""
+
+#: dp-portfolio.php:278
+msgid "URL"
+msgstr ""
+
+#: dp-portfolio.php:283
+msgid "The URL this project should link to."
+msgstr ""
+
+#: dp-portfolio.php:291
+msgid "Testimonial"
+msgstr ""
+

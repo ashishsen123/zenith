@@ -1,0 +1,42 @@
+Theme Name: Poloray Theme  Changelog
+======================================
+* Version 1.2.3
+***************************************
+1. Site title and site description added in header, if site logo uploaded via theme option, site title and description will be disappeared.
+
+* Version 1.2.2
+***************************************
+1. Deprecated php function error fixed.
+2. Theme option upload button style issue fixed.
+3. Google analytics option removed.
+4. All supporting function are hooked to after_setup_theme hook.
+5. Removed function exists wrapper.
+6. Removed query_posts, used wp_query instead.
+7. Removed wp_enqueue_script('jquery');
+8. Removed unused jquery.
+9. Theme url changed.
+10.wp_title filtered with additional content.
+11.Added plugin notification for recommends plugin.
+
+* Version 1.2.1
+***************************************
+1. Remove @package wordpress from all files fixed.
+2. Themes are required to prefix all options, custom functions, custom variables fixed.
+
+* Version 1.2
+***************************************
+1. Remove @package WordPress? from files *fixed.
+2. Themes may optionally link the default stylesheet (style.css) directly in the document head, or via wp_enqueue_style(). Whichever method is used, the 
+default stylesheet must be referenced via get_stylesheet_uri() *fixed.
+3. Themes are required to prefix all options, custom functions, custom variables, and custom constants with theme-slug (or appropriate variant) *fixed.
+4. Themes are required to declare copyright and license information as specified by the applicable license  *fixed.
+5. Blog style missmatch *fixed.
+6. Translatable text issue *fixed.
+
+* Version 1.1
+***************************************
+1. One of the translatable string *fixed.
+
+* Version 1.0
+***************************************
+1. Poloray Theme is created on 20/11/2012.

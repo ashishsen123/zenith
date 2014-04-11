@@ -1,0 +1,10 @@
+<wpml-config>                                
+    <admin-texts>
+        <key name="virtue">
+            <key name="logo_below_text" />
+            <key name="blog_title" />
+            <key name="portfolio_title" />
+            <key name="footer_text" />
+        </key>
+    </admin-texts>    
+</wpml-config>

@@ -1,0 +1,62 @@
+Photoria Theme
+http://www.wpzoom.com/themes/photoria
+ 
+CHANGELOG
+---------
+
+v 2.0.2 (February 25, 2013)
+
+	- style.css - bug fix with "Previous" button from pagination
+
+	
+v 2.0.1 (January 25, 2013)
+
+	- Bug fix with previous button of slideshow
+	- modified files:
+		style.css
+		wpzoom-featured.php
+		
+
+v 2.0 (December 16, 2012)
+
+	- Fully re-written code
+	- WPZOOM Framework is now integrated in this theme
+ 	- Added support for native WordPress image cropping
+	- The theme doesn't uses TimThumb script for thumbnails cropping anymore
+	- Fixed some bugs related to WordPress 3.5
+ 	- All theme files were modified.
+
+
+v 1.1.3 (December 13, 2011)
+
+	- An update for WP 3.3
+	- File edited: header.php
+
+
+v 1.1.2 (August 6, 2011)
+
+	- An important security fix: /scripts/timthumb.php has been updated to 2.0
+
+
+v 1.1.1
+
+	- minor changes
+
+
+v 1.1
+
+	- new file: custom.css - add in it your custom CSS code.
+	- minor fixes to support child themes
+	- modified files:
+		functions/wpzoom-core.php
+		functions/wpzoom-functions.php
+		wpzoom_admin/admin_functions.php
+		wpzoom_admin/options.css
+		header.php
+		style.css
+		footer.php
+		
+
+v 1.0  
+
+	- initial release

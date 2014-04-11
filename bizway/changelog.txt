@@ -1,0 +1,64 @@
+== Changelog ==
+
+= Theme Name: BizWay Theme =
+
+= Version: 1.7.5 =
+* Plugin recommends notification added.
+
+= Version: 1.7.3 =
+* Unescaped home_url, fixed.
+* Fontface museo removed from stylesheet.
+* wp_nav_menu is still wrapped in if function exists, fixed.
+* get_current_theme() function removed, used wp_get_theme() instead
+* Call to undefined function bizway_get_thumbnail(), fixed.
+* 
+
+= Version: 1.7.2 =
+* ddsmooth menu replace By sf-menu.
+* Added GPL compatible menu.
+* Removed non GPL compatible fonts.
+* Code optimized.
+* image_resize() deprecated issue fixed.
+* Fixed, Check the styling of child links that have a long text. 
+* Fixed, For some reason a comment with a lot of text has the comment background cut-off.
+* Fixed, Themes must not provide backward compatibility for out-of-date WordPress? versions
+* Fixed, Remove the 'comment-reply' script from the document HEAD (in header.php).
+* Fixed, Translation issue.
+* Fixed, Themes are required to use a unique slug as a prefix for anything in the public namespace.
+* Fixed, Themes are required to use get_template_directory() rather than TEMPLATEPATH to return the template path.
+
+= Version: 1.7 =
+
+* Miner functionality added.
+
+* Threaded comment issue fixed.
+
+= Version: 1.6 =
+
+* Menu problem fixed.
+
+= Version: 1.5 =
+
+* Update for iphone compatible.
+
+* Removed Unnecessary files.
+
+* Removed unused links.
+
+= Version: 1.4 =
+
+* Fixed WordPress on @package declarations.
+
+= Version: 1.3 =
+
+* Page navigation added in blog page.
+
+* Fixed text domain
+
+= Version: 1.2 =
+
+* Optimized stylesheet.
+
+= Version: 1.0 =
+
+* BizWay Theme is created on 1/01/2012.

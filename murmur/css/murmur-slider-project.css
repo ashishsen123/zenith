@@ -1,0 +1,55 @@
+#dppp {
+	background: #fff;
+	box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	box-shadow: 0 0 20px #ebebeb;
+		-moz-box-shadow: 0 0 20px #ebebeb;
+		-webkit-box-shadow: 0 0 20px #ebebeb;
+	float: right;
+	margin: 36px 40px;
+	padding: 10px;
+	width: 640px;
+	}
+	#dppp .sliders.flexslider {
+		margin-bottom: 0;
+		}
+		#dppp .sliders.flexslider .slides li,
+		#dppp .sliders.flexslider .flex-direction-nav li {
+			background: transparent;
+			}
+			#dppp .sliders.flexslider .flex-direction-nav li a {
+				background: url(../images/murmur-slider-nav-alt.png) no-repeat 0 0 !important;
+				height: 48px !important;
+				margin: -24px 0 0;
+				top: 50% !important;
+				width: 48px !important;
+				}
+			#dppp .sliders.flexslider .flex-direction-nav li a:hover {
+				text-decoration: none;
+				}
+			#dppp .sliders.flexslider .flex-direction-nav li .prev {
+				left: 0 !important;
+				}
+			#dppp .sliders.flexslider .flex-direction-nav li .next {
+				background-position: 0 -48px !important;
+				right: 0 !important;
+				}
+			#dppp .sliders.flexslider .flex-control-nav {
+				display: none !important;
+				}
+				
+@media only screen and (max-width: 999px) {
+
+	#dppp {
+		margin: 0 20px;
+		}
+
+} /* end max-width 680 */
+
+@media only screen and (max-width: 679px) {
+	#dppp {
+		width: 320px;
+		}
+}

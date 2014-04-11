@@ -1,0 +1,269 @@
+/*
+Theme Name: Merapi
+Description: A Child Theme of Twenty Ten Theme from tipsandtricks-hq.com
+Theme URI: http://demo.wpcharity.com/merapi/
+Author: Tips and Tricks HQ
+Author URI: http://www.tipsandtricks-hq.com
+Template: twentyten
+Version: 1.0.0
+
+URL : http://demo.wpcharity.com/merapi/
+
+
+*/
+
+@import url(../twentyten/style.css);
+
+body
+	{
+		background:#f5f5f5 url('images/bgbody.jpg');
+		font:normal 12px Helvetica, Arial, Sans-Serif;
+		color:#666;
+	}
+a {
+		color:#777;
+}
+
+a:hover {
+		color:#4A86AC;
+	}
+	
+/* Header */
+
+#header {
+	background:url('images/bgtopbot.jpg');
+	border-top:5px solid red;
+	padding:0;
+}
+
+#header:after
+{
+	content:".";
+	display:block;
+	height:0px;
+	visibility:hidden;
+	clear:both;
+}
+
+
+.entry-meta a, .entry-utility a:hover{
+color: #4A86AC;
+}
+
+.cat-links a
+	{
+		color:#006699;
+	}
+.cat-links a:hover
+	{
+		color:#4a86ac;
+	}	
+#wrapper
+	{	
+		margin-top:0px;
+		padding:0px;
+		width:100%;
+	}
+#masthead
+	{
+		width:1140px;
+		margin:0 auto;
+	}	
+		
+#site-title a
+	{
+		color:#333;
+		font:normal 55px "leangueGothiRegular", Helventica,Arial, sans-serif;
+		text-shadow:1px 1px 1px #fff;
+		text-transform:uppercase;
+		text-decoration:none;
+	}	
+#site-description
+	{
+		float:right;
+		margin:47px 0 18px 0;
+		width:230px;
+		font-size:14px;
+		font-weight:normal;
+		font-family:'Helvetica' sans-serif;
+		color:#333;
+	}	
+#content .entry-title 
+	{
+		color: #000;
+		font-size: 28px;
+		font-weight: normal;
+		font-family: "LeagueGothicRegular", helvetica, arial, sans-serif;
+		line-height: 1.3em;
+		margin-bottom: 0;
+	}
+.widget-title 
+	{
+				background-color: #007A7A;
+				color: #fff;
+				font: normal 22px "LeagueGothicRegular", helvetica, arial, sans-serif;
+				text-transform: uppercase;
+	}
+	
+/* Navigation */
+
+#access
+	{
+		float:none;
+		background:#fff;
+	}
+#access a
+	{
+		color:#333;
+		}
+#access > a
+	{	
+		color:#333;
+	}
+	}
+#access li > a, #access ul ul  > a	
+	{
+		color:#333;
+	}	
+#access li:hover > a, #access ul ul :hover > a
+	{
+		color:#fff;
+		background-color:red;
+	}		
+#access ul li.current_page_item > a
+	{
+		color:#333;
+	}	
+	
+#access ul li.current_page_item > a:hover
+	{
+		color:#fff;
+		background:red;
+	}	
+
+.home .sticky 
+	{
+		border-top:0px;
+	}
+#content .entry-title 
+	{	
+		text-transform:uppercase;
+	}
+.entry-title a:hover
+	{
+		color: #006699;	
+	}
+.entry-meta a, .entry-utility a:hover 
+{
+	color: #006699;
+}
+.entry-meta a:hover, .entry-utility a:hover 
+{
+	color: #4A86AC;
+}	
+#content p
+	{
+		color:#666;
+	}
+.widget-area a
+{
+		text-decoration:none;
+		color:#666;
+	}
+#meta-4 li a
+	{
+      color:#666;
+	  display:block;
+	 
+	  border-bottom:1px solid #ccc;
+	  padding:5px 10px;
+	   background:url('images'/list.png) no-repeat left center;
+	}  
+#meta-4 li a:hover
+	{
+      color:#006699;
+	}  	
+.widget-area a:hover 	
+	{	
+		text-decoration:none;
+		color:#333;
+		}
+
+		
+abbr, acronym 
+	{
+		border-bottom:0px;
+	}
+#colophon
+	{
+		border-top:0px;
+	}	
+#footer
+	{
+		background:#999 url('images/bgtopbot.jpg');
+	}
+.xoxo #search-3 .widget-title
+	{
+		color:#333;
+		background-color:#ccc;
+		}
+.xoxo #archives-2 .widget-title	
+	{
+		color:#333;
+		background-color:#ccc;
+	}	
+.widget-area ul ul
+{
+ list-style:none;
+} 
+.xoxo #recent-posts-2 .widget-title	
+	{
+		color:#333;
+		background-color:#ccc;
+	}	
+.xoxo #meta-5 .widget-title	
+	{
+		color:#333;
+		background-color:#ccc;
+	}	
+.xoxo #categories-2 .widget-title	
+	{
+		color:#333;
+		background-color:#ccc;
+	}	
+.xoxo #text-11 .widget-title	
+	{
+		color:#333;
+		background-color:#ccc;
+	}			
+.xoxo #text-9 .widget-title	
+	{
+		color:#333;
+		background-color:#ccc;
+	}	
+.xoxo #text-10 .widget-title	
+	{
+		color:#333;
+		background-color:#ccc;
+	}
+#site-info a
+	{
+		background:red;
+		color:#fff;
+	}
+#site-generator a
+	{
+		background-color:red;
+		color:#666;
+	}
+#site-generator a:hover
+	{	
+		text-decoration:none;
+		color:#fff;
+		}
+#colophon ul ul li
+	{
+		list-style:none;
+		border-top:1px solid #999;
+		padding:5px 0;
+	}	

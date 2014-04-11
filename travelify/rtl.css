@@ -1,0 +1,511 @@
+ /*
+Theme Name: Travelify
+Theme URI: http://colorlib.com/wp/travelify/
+Author: Colorlib
+Author URI: http://colorlib.com/wp/
+Description: Travelify is a clan, simple and fully responsive WordPress WooCommerce theme that looks awesome on any device. It adjusts automatically to any screen size including tablets and smartphones as well as Retina displays. Theme is built using HTML5 / CSS3 and is SEO friendly. This WordPress theme was built with travel, adventures, languages and nature in mind but it can be used for anything so be creative and unleash its full potential in blogging, ecommerce, business and other websites. Along the awesome design this theme is customizable via a simple but yet powerful theme options. Some of the nicest features are featured post slider, social icons, custom logo, translation ready and many more. This theme out-of-the-box plays nicely with WooCommerce, Breadcrumb NavXT, WP-PageNavi, Contact Form 7 and other popular plugins. Theme available in English, French, German, Hungarian, Italian, Spanish, Dutch, Hebrew, Slovak, Turkish and Chinese.
+Version: 1.5.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: white, light, green , custom-background, custom-header, custom-menu, fluid-layout, featured-images, full-width-template, left-sidebar, right-sidebar, one-column, two-columns, three-columns, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, photoblogging, holiday
+Text Domain: travelify
+ */
+
+/* =Reset
+--------------------------------------------------------------*/
+
+caption,th,td {
+	
+	text-align: right;
+}
+
+
+
+/* Headings
+-----------------------------------------------*/
+
+
+
+/* No Border/Margin/Padding */
+
+.no-margin-left {
+	margin-right: 0px !important;
+}
+.no-margin-right {
+	margin-left: 0px !important;
+}
+
+.no-padding-left {
+	padding-right: 0px !important;
+}
+.no-padding-right {
+	padding-left: 0px !important;
+}
+
+
+.no-border-left {
+	border-right: 0 none !important;
+}
+.no-border-right {
+	border-left: 0 none !important;
+}
+
+/* Blockquote */
+blockquote {
+	
+	border-right: 4px solid #439f55;
+	
+}
+
+/* Breadcrumb */
+.breadcrumb {
+	float: left;
+	text-align: left;
+	
+}
+.breadcrumb ul li {
+	margin-left: 6px;
+	margin-right: 0px;
+	
+}
+
+
+.breadcrumb ul li a:after {
+	
+	margin-right: 12px;
+}
+/* Forms */
+
+
+input.s {
+	
+	padding: 3px 0 3px 30px ;
+	
+}
+input.s:focus {
+	
+	padding-right: 10px;
+	
+}
+
+
+#main-nav a.assistive-text:active,#main-nav a.assistive-text:focus {
+	right: 7.6%;
+	left: auto;
+}
+
+
+/* Readmore */
+a.readmore {
+	float: left;
+	
+}
+
+/* Alignment */
+.alignleft {
+	
+	float: right;
+	margin-left: 30px;
+}
+.alignright {
+
+	float: left;
+	margin-right: 30px;
+}
+.aligncenter {
+
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+/* Back to Top */
+.back-to-top {
+	left: 18px;
+	right: auto;
+}
+
+.back-to-top a {
+	
+	padding: 8px 11px 8px 6px;
+	
+}
+
+/* =Header
+-----------------------------------------------*/
+
+
+
+#site-logo {
+	float: right;
+	
+}
+
+.hgroup-right {
+	
+	float: left;
+	
+}
+/* Social Profiles */
+.social-icons {
+	float: right;
+}
+.social-icons ul {
+	
+	float: left;
+}
+.social-icons ul li {
+	
+	float: right;
+	padding-left: 1px;
+}
+
+/* =Menu
+--------------------------------------------------------------*/
+
+#main-nav li {
+	float: right;
+	
+}
+#main-nav a {
+	
+	float: right;
+	padding: 8px 10px 0 12px;
+	
+}
+
+/* Dropdown */
+
+#main-nav ul li ul {
+	
+	right: 0px;
+	left:auto;
+	
+}
+#main-nav ul li ul li {
+	
+	border-left: 1px solid #EAEAEA;
+	border-right: 1px solid #EAEAEA;
+}
+
+
+
+
+#main-nav ul li ul li ul {
+	right: 188px;
+	left:auto;
+}
+
+
+
+/* =Featured Slider
+--------------------------------------------------------------*/
+
+.featured-text {
+	
+	left: 30px;
+	right:auto;
+	text-align: left;
+	float: left;
+	clear: left;
+	
+}
+
+
+\
+/* =Content
+-----------------------------------------------*/
+
+#content ul,#content ol {
+	margin: 0 30px 20px 0;
+}
+.service-item .service-icon {
+	
+	float: right;
+	margin-left: 20px;
+	
+}
+
+#primary {
+	float: right;
+	margin-right: 3.06%;
+	
+}
+
+.page-title {
+	
+	float: right;
+	
+}
+
+.post .entry-title {
+	padding-right: 2.5%;
+    padding-left: 2.5%;
+    
+}
+
+.entry-meta {
+	float: right;
+	
+}
+
+.entry-meta span {
+	padding-left: 8px
+}
+.entry-meta .author:before,
+.entry-meta .date:before,
+.entry-meta .category:before,
+.entry-meta .comments:before,
+.tags:before,
+.back-to-top a:before {
+	
+	padding-left: 3px;
+	
+}
+
+table {
+	
+	border-right: 1px solid #eaeaea;
+	
+}
+th {
+	
+	border-left: 1px solid #eaeaea;
+	text-align: right;
+}
+td,tbody th {
+	border-left: 1px solid #eaeaea;
+	
+}
+
+/* Column */
+.column {
+	margin-right: -3.06%;
+}
+
+.one-half,.one-third,.one-fourth {
+	float: right;
+	margin: 0 2.97% 0 0;
+	
+}
+
+/* Sidebar */
+#secondary {
+	float: right;
+	margin-right: 3.06%;
+	
+}
+/* Left Sidebar Template */
+.left-sidebar-template #primary,
+.left-sidebar-template #content-woocommerce {
+	float: left;
+}
+.left-sidebar-template #secondary {
+	float: right;
+	margin-right: 0;
+}
+
+
+/* Blog Medium Page */
+.medium-wrap .post-featured-image {
+	float: right;
+	margin-left: 2.67%;
+	}
+
+
+/* =Comments
+--------------------------------------------------------------*/
+
+#content .comments-area ul,#content .comments-area ol {
+	margin: 0 30px 30px 0;
+}
+
+.comments-area article header img {
+	float: right;
+	
+}
+.comments-area article header cite,.comments-area article header time {
+	display: block;
+	margin-right: 35px;
+	margin-right: 4rem;
+}
+
+.comments-area article header h4 {
+	
+	left: 0;
+	right:auto;
+	
+}
+.comments-area li.bypostauthor cite span {
+	
+	margin-right: 5px;
+	margin-right: 0.35rem;
+	
+}
+a.comment-reply-link:before {
+	
+	margin-left: 3px;
+	
+}
+
+.commentlist .children {
+	margin-right: 48px;
+	margin-right: 3.42rem;
+}
+/* Comment form */
+
+#respond h3#reply-title #cancel-comment-reply-link {
+	margin-right: 10px;
+	margin-right: 0.71rem;
+	
+}
+
+label ~ span.required {
+	
+	float: right;
+	margin: -18px -16px 0 0;
+	margin: -1.28rem -1.14rem 0 0;
+}
+
+
+
+/* =Pagination
+--------------------------------------------------------------*/
+
+#wp_page_numbers ul {
+	
+	float: left;
+}
+#wp_page_numbers ul li {
+	float:right;
+	margin-right: 7px;
+}
+
+#wp_page_numbers ul li a {
+	
+	float: right;
+	
+}
+
+.wp-pagenavi .current,.wp-pagenavi a {
+	
+	margin-right: 4px;
+}
+
+
+/* Default wp-page */
+
+
+ul.default-wp-page li.previous {
+	float: right;
+}
+ul.default-wp-page li.next {
+	float: left;
+}
+
+/* Single pagination */
+
+.pagination span {
+	
+	margin-right: 3px;
+}
+
+/* Search Widget */
+.widget_search input.s {
+	
+	padding: 0 15px 0 35px;
+	
+}
+
+
+/* Tag Cloud */
+.widget_tag_cloud a {
+	margin-left: 5px;
+	
+}
+
+
+/* =Footer
+-----------------------------------------------*/
+
+
+
+#footerarea .widget-area {
+	
+	margin-right: -2%;
+}
+#footerarea .widget {
+	float: right;
+	margin-right: 2.5%;
+	
+}
+
+
+/* Site Generator */
+
+#site-generator .copyright {
+	float: right;
+	
+}
+
+
+/* =WooCommerce
+-------------------------------------------------------------- */
+
+#content-woocommerce {
+	float: right;
+	
+}
+
+/* =Responsive Structure
+-----------------------------------------------*/
+/* All Tablet Portrait size smaller than standard 1079 (devices and browsers) */
+
+#site-logo {
+	margin-right: 20px;
+}
+
+/* Column */
+.column {
+	margin-right: -2.99%;
+}
+.one-half,.one-third,.one-fourth {
+	margin: 0 2.90% 0 0;
+}
+
+#footerarea .widget-area {
+	margin-right: 0;
+}
+
+#footerarea {
+	margin-left: 1.5%;
+}
+}
+/* All Mobile Portrait size smaller than 768 (devices and browsers) */
+
+#primary,#secondary,#footerarea .widget {
+
+	margin-right: 0;
+}
+
+.breadcrumb {
+	text-align: right;
+}
+
+
+/* Column */
+.column {
+	margin-right: 0;
+}
+
+/* Column */
+.column {
+	margin-right: -3.57%;
+}
+.one-half,.one-third,.one-fourth {
+	margin: 0 3.44% 0 0;
+	
+}
+.widget_service .column {
+	margin-right: 0;
+}
+

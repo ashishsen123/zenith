@@ -1,0 +1,56 @@
+/*=======================================================*/
+/*---------------------Default Style---------------------*/
+/*=======================================================*/
+
+ a{
+color:#98105d;
+text-decoration:none;
+}
+a:hover {
+	color: #CC0099;
+}
+.bg_line{
+	background:#f0f0f0 url(../images/body-line-pink.png) repeat-x;
+}
+.read_more {
+	color:#98105d;
+}
+.wrap .header_line{
+   background:url(../images/slider-back-pink.png); 
+}
+.main_wrapper {
+	background:#FFFFFF;
+}
+.slider_wrapper {
+	background: url(../images/slider-bg-pink.png) repeat-y;
+}
+#menu .ddsmoothmenu li a {
+	background:url(../images/pink-bullet_list.png)0 6px no-repeat;
+	color: #CC0099;
+}
+.paging a:hover, .paging a:hover, .paging a.current {
+	background: #980F5D;
+}
+.paging a{
+	background: #d8cece;
+}
+.post .date{
+	background: url(../images/date_bg_pink.png) no-repeat;
+	float:left;
+	width:50px;
+	height:50px;
+	text-align:center;
+	text-shadow:none;
+	color:#fff;
+	padding-top:8px;
+	line-height:16px;
+	font-size:14px;
+	margin-top:5px;
+	margin-right:10px;
+}
+/*=======================================================*/
+/*----------------------Footer Style---------------------*/
+/*=======================================================*/
+.hr_big {
+	background:#e5c3d6;
+}

@@ -1,0 +1,642 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zeeTasty\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-31 20:47+0100\n"
+"PO-Revision-Date: 2013-08-31 20:47+0100\n"
+"Last-Translator: Ulrich Pogson <grapplerulrich@gmail.com>\n"
+"Language-Team: ThemeZee <contact@themezee.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;_n;esc_attr_e;esc_attr__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: 404.php:9
+msgid "404 Error: Not found"
+msgstr ""
+
+#: 404.php:12
+msgid ""
+"The page you trying to reach does not exist, or has been moved. Please use "
+"the menus or the search box to find what you are looking for"
+msgstr ""
+
+#: 404.php:14
+msgid "Search"
+msgstr ""
+
+#: 404.php:17
+msgid "Recent Posts"
+msgstr ""
+
+#: 404.php:27
+msgid "Pages"
+msgstr ""
+
+#: archive.php:7 archive.php:8
+msgid "Archive for"
+msgstr ""
+
+#: archive.php:9
+msgid "Author Archive"
+msgstr ""
+
+#: archive.php:10
+msgid "Tag Archive for"
+msgstr ""
+
+#: archive.php:11
+msgid "Archives"
+msgstr ""
+
+#: author.php:11
+msgid "Archive for Author"
+msgstr ""
+
+#: author.php:18
+msgid "About the Author:"
+msgstr ""
+
+#: author.php:23 author.php:24
+msgid "Author Website: "
+msgstr ""
+
+#: comments.php:13
+msgid "Enter password to view comments."
+msgstr ""
+
+#: comments.php:21 includes/template-tags.php:61
+msgid "One comment"
+msgstr ""
+
+#: comments.php:21 includes/template-tags.php:61
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: comments.php:44
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:75
+msgid "Main Navigation"
+msgstr ""
+
+#: functions.php:107
+msgid "Main Sidebar"
+msgstr ""
+
+#: functions.php:109
+msgid ""
+"Appears on posts and also pages (in case Sidebar Pages has no widgets) "
+"except frontpage/fullwidth template."
+msgstr ""
+
+#: functions.php:116
+msgid "Sidebar Pages"
+msgstr ""
+
+#: functions.php:118
+msgid ""
+"Appears on static pages only. Leave this widget area empty to use Main "
+"Sidebar on pages."
+msgstr ""
+
+#: functions.php:127
+msgid "Frontpage Widgets #1"
+msgstr ""
+
+#: functions.php:129
+msgid "Three column horizontal widget area displayed on frontpage template."
+msgstr ""
+
+#: functions.php:136
+msgid "Frontpage Widgets #2"
+msgstr ""
+
+#: functions.php:138
+msgid "Two column horizontal widget area displayed on frontpage template."
+msgstr ""
+
+#: functions.php:195
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: functions.php:209
+msgid "zeeTasty Theme"
+msgstr ""
+
+#: image.php:22
+msgid "Previous"
+msgstr ""
+
+#: image.php:23
+msgid "Next"
+msgstr ""
+
+#: image.php:25
+msgid "Return to Gallery"
+msgstr ""
+
+#: image.php:26
+msgid "Return to"
+msgstr ""
+
+#: loop-excerpt.php:10
+msgid "&raquo; Read more"
+msgstr ""
+
+#: loop.php:9
+msgid "<span>&raquo; Read more</span>"
+msgstr ""
+
+#: page.php:12 template-fullwidth.php:17
+msgid "Edit"
+msgstr ""
+
+#: search.php:8 search.php:20
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:25
+msgid ""
+"No matches. Please try again, or use the navigation menus to find what you "
+"search for."
+msgstr ""
+
+#: searchform.php:3
+msgid "Search..."
+msgstr ""
+
+#: sidebar.php:20
+msgid "Widget Area"
+msgstr ""
+
+#: includes/template-tags.php:43
+#, php-format
+msgid ""
+"Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time datetime="
+"\"%3$s\">%4$s</time></a>"
+msgstr ""
+
+#: includes/template-tags.php:52
+#, php-format
+msgid "by <a href=\"%1$s\" title=\"%2$s\" rel=\"author\">%3$s</a>"
+msgstr ""
+
+#: includes/template-tags.php:54
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: includes/template-tags.php:61
+msgid "Leave a comment"
+msgstr ""
+
+#: includes/template-tags.php:65
+msgid "Edit Post"
+msgstr ""
+
+#: includes/template-tags.php:76
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: includes/template-tags.php:83
+#, php-format
+msgid "tagged with %1$s"
+msgstr ""
+
+#: includes/template-tags.php:107
+msgid "&laquo; Older Entries"
+msgstr ""
+
+#: includes/template-tags.php:108
+msgid "Recent Entries &raquo;"
+msgstr ""
+
+#: includes/customization/custom-jscript.php:18
+msgid "Menu"
+msgstr ""
+
+#: includes/options/options-framework.php:17
+#: includes/options/options-framework.php:71
+msgid "Theme Options"
+msgstr ""
+
+#: includes/options/options-framework.php:43
+msgid "Use this Image"
+msgstr ""
+
+#: includes/options/options-framework.php:75
+msgid "Theme Options successfully updated."
+msgstr ""
+
+#: includes/options/options-framework.php:101
+msgid "Save Changes"
+msgstr ""
+
+#: includes/options/options-framework.php:133
+#: includes/options/options-framework.php:135
+msgid "Welcome"
+msgstr ""
+
+#: includes/options/options-framework.php:283
+msgid "Upload Image"
+msgstr ""
+
+#: includes/options/options-setup.php:27
+msgid "General"
+msgstr ""
+
+#: includes/options/options-setup.php:32
+msgid "Colors"
+msgstr ""
+
+#: includes/options/options-setup.php:37
+msgid "Front Page"
+msgstr ""
+
+#: includes/options/options-setup.php:51
+msgid "Theme Data"
+msgstr ""
+
+#: includes/options/options-setup.php:53
+msgid "Name"
+msgstr ""
+
+#: includes/options/options-setup.php:54
+msgid "Version"
+msgstr ""
+
+#: includes/options/options-setup.php:55
+msgid "(Changelog)"
+msgstr ""
+
+#: includes/options/options-setup.php:56
+msgid "Author"
+msgstr ""
+
+#: includes/options/options-setup.php:61
+msgid "Upgrade"
+msgstr ""
+
+#: includes/options/options-setup.php:64
+msgid "Check out the PRO Version"
+msgstr ""
+
+#: includes/options/options-setup.php:65
+msgid "Join the Theme Club and get Support"
+msgstr ""
+
+#: includes/options/options-setup.php:70
+msgid "Help to translate"
+msgstr ""
+
+#: includes/options/options-setup.php:72
+msgid ""
+"You want to use this WordPress theme in your native language? Then help out "
+"to translate it!"
+msgstr ""
+
+#: includes/options/options-setup.php:74
+msgid "Join the Online Translation Project"
+msgstr ""
+
+#: includes/options/options-setup.php:79
+msgid "About ThemeZee"
+msgstr ""
+
+#: includes/options/options-setup.php:81
+msgid "ThemeZee provides several stunning <b>Freemium WordPress Themes</b>."
+msgstr ""
+
+#: includes/options/options-setup.php:82
+msgid ""
+"That means you can download and use every theme <b>for FREE</b>, and only "
+"pay to get more features, better theme tutorials and advanced theme support!"
+msgstr ""
+
+#: includes/options/options-setup.php:83
+msgid "Visit ThemeZee.com now"
+msgstr ""
+
+#: includes/options/options-setup.php:87
+msgid "Subscribe Now"
+msgstr ""
+
+#: includes/options/options-setup.php:89
+msgid ""
+"Subscribe now and get informed about each <b>Theme Release</b> from ThemeZee."
+msgstr ""
+
+#: includes/options/options-setup.php:91
+msgid "RSS Feed"
+msgstr ""
+
+#: includes/options/options-setup.php:92
+msgid "Email Subscription"
+msgstr ""
+
+#: includes/options/options-setup.php:93
+msgid "Follow me on Twitter"
+msgstr ""
+
+#: includes/options/options-setup.php:94
+msgid "Become a Facebook Fan"
+msgstr ""
+
+#: includes/options/options-setup.php:111
+msgid "Thank you for installing this theme!"
+msgstr ""
+
+#: includes/options/options-setup.php:113
+msgid "Welcome to"
+msgstr ""
+
+#: includes/options/options-setup.php:115
+msgid ""
+"First of all, the theme options might alarm you, <b>but don't panic</b>. "
+"Everything is organized and documented well enough for you."
+msgstr ""
+
+#: includes/options/options-setup.php:120
+msgid "Want more features?"
+msgstr ""
+
+#: includes/options/options-setup.php:122
+msgid "Check out"
+msgstr ""
+
+#: includes/options/options-setup.php:123
+msgid ""
+"The <b>PRO Version</b> provide additional features to <b>customize</b> and "
+"configure your Theme."
+msgstr ""
+
+#: includes/options/options-setup.php:124
+msgid "Some Pro Features:"
+msgstr ""
+
+#: includes/options/options-setup.php:126
+msgid "+ Custom Color Management"
+msgstr ""
+
+#: includes/options/options-setup.php:127
+msgid "+ Image Slideshow on frontpage"
+msgstr ""
+
+#: includes/options/options-setup.php:128
+msgid "+ several Pro Widgets"
+msgstr ""
+
+#: includes/options/options-setup.php:129
+msgid "+ unlimited Font Manager"
+msgstr ""
+
+#: includes/options/options-setup.php:130
+msgid "+ Header Content feature"
+msgstr ""
+
+#: includes/options/options-setup.php:131
+msgid "+ and a lot more.."
+msgstr ""
+
+#: includes/options/options-setup.php:133
+msgid "Learn more about the PRO Version"
+msgstr ""
+
+#: includes/options/options-setup.php:138
+msgid "Need support?"
+msgstr ""
+
+#: includes/options/options-setup.php:140
+msgid "Join the Theme Club"
+msgstr ""
+
+#: includes/options/options-setup.php:141
+msgid ""
+"You want <b>top-notch Support</b> for installing and configuring your Theme? "
+"Become a <b>Member</b>!"
+msgstr ""
+
+#: includes/options/options-setup.php:142
+msgid "Theme Club Features:"
+msgstr ""
+
+#: includes/options/options-setup.php:144
+msgid "+ access to the Support Forum at ThemeZee.com"
+msgstr ""
+
+#: includes/options/options-setup.php:145
+msgid "+ download all Pro Themes"
+msgstr ""
+
+#: includes/options/options-setup.php:146
+msgid "+ advanced online Theme Documentation"
+msgstr ""
+
+#: includes/options/options-setup.php:147
+msgid "+ fast and helpful answers to all your questions"
+msgstr ""
+
+#: includes/options/options-setup.php:149
+msgid "Learn more about the Theme Club"
+msgstr ""
+
+#: includes/options/options-setup.php:156
+msgid "Not happy with"
+msgstr ""
+
+#: includes/options/options-setup.php:158
+msgid "ThemeZee.com provide several other <b>free WordPress Themes</b>."
+msgstr ""
+
+#: includes/options/options-setup.php:159
+msgid "Click here to browse through all of my themes."
+msgstr ""
+
+#: includes/options/settings/settings-colors.php:7
+msgid "Predefined Color Schemes"
+msgstr ""
+
+#: includes/options/settings/settings-colors.php:15
+msgid "Black"
+msgstr ""
+
+#: includes/options/settings/settings-colors.php:16
+msgid "Blue"
+msgstr ""
+
+#: includes/options/settings/settings-colors.php:17
+msgid "Brown"
+msgstr ""
+
+#: includes/options/settings/settings-colors.php:18
+msgid "Green"
+msgstr ""
+
+#: includes/options/settings/settings-colors.php:19
+msgid "Orange"
+msgstr ""
+
+#: includes/options/settings/settings-colors.php:20
+msgid "Purple"
+msgstr ""
+
+#: includes/options/settings/settings-colors.php:21
+msgid "Standard"
+msgstr ""
+
+#: includes/options/settings/settings-colors.php:28
+msgid "Set Color Scheme"
+msgstr ""
+
+#: includes/options/settings/settings-colors.php:29
+msgid "Please select your color scheme here."
+msgstr ""
+
+#: includes/options/settings/settings-frontpage.php:7
+msgid "Activate Frontpage Template"
+msgstr ""
+
+#: includes/options/settings/settings-frontpage.php:10
+#: includes/options/settings/settings-frontpage.php:46
+msgid "Frontpage Image"
+msgstr ""
+
+#: includes/options/settings/settings-frontpage.php:13
+#: includes/options/settings/settings-frontpage.php:55
+msgid "Frontpage Intro"
+msgstr ""
+
+#: includes/options/settings/settings-frontpage.php:16
+msgid "Frontpage Widgets"
+msgstr ""
+
+#: includes/options/settings/settings-frontpage.php:26
+msgid "Turn on Frontpage Template?"
+msgstr ""
+
+#: includes/options/settings/settings-frontpage.php:27
+msgid ""
+"Check this to automatically display the frontpage template on HOME page."
+msgstr ""
+
+#: includes/options/settings/settings-frontpage.php:35
+msgid "Frontpage Image Source"
+msgstr ""
+
+#: includes/options/settings/settings-frontpage.php:36
+msgid "Choose which image(s) the frontpage template should display."
+msgstr ""
+
+#: includes/options/settings/settings-frontpage.php:41
+msgid "Custom Header Image (from Appearance > Header)"
+msgstr ""
+
+#: includes/options/settings/settings-frontpage.php:42
+msgid "Individual Image uploaded below"
+msgstr ""
+
+#: includes/options/settings/settings-frontpage.php:47
+msgid ""
+"Upload an individual frontpage image here. You have to select \"Individual "
+"Image\" above to display it. Image should be 1140x400 pixels."
+msgstr ""
+
+#: includes/options/settings/settings-frontpage.php:56
+msgid "Enter here the Text of the Frontpage Intro."
+msgstr ""
+
+#: includes/options/settings/settings-frontpage.php:62
+msgid "Frontpage Intro Button Text"
+msgstr ""
+
+#: includes/options/settings/settings-frontpage.php:63
+msgid ""
+"Enter here the Text of the Frontpage Intro Button. Leave blank to hide to "
+"hide the button."
+msgstr ""
+
+#: includes/options/settings/settings-frontpage.php:69
+msgid "Frontpage Intro Button Destination"
+msgstr ""
+
+#: includes/options/settings/settings-frontpage.php:70
+msgid "Enter here the URL to which the Frontpage Intro Button should point to."
+msgstr ""
+
+#: includes/options/settings/settings-frontpage.php:78
+msgid "About Frontpage Widgets"
+msgstr ""
+
+#: includes/options/settings/settings-frontpage.php:79
+msgid ""
+"Please note: You can configure your widgets to be displayed on the frontpage "
+"template on <b>Appearance > Widgets</b>."
+msgstr ""
+
+#: includes/options/settings/settings-general.php:7
+msgid "Header Settings"
+msgstr ""
+
+#: includes/options/settings/settings-general.php:10
+msgid "Layout Settings"
+msgstr ""
+
+#: includes/options/settings/settings-general.php:13
+msgid "Custom CSS Code"
+msgstr ""
+
+#: includes/options/settings/settings-general.php:24
+msgid "Logo Image"
+msgstr ""
+
+#: includes/options/settings/settings-general.php:25
+msgid ""
+"Paste the full Image URL of your logo or click Upload Image. Leave this "
+"field blank to display the site title instead of a logo image."
+msgstr ""
+
+#: includes/options/settings/settings-general.php:31
+msgid "Show Tagline?"
+msgstr ""
+
+#: includes/options/settings/settings-general.php:32
+msgid ""
+"Check this if you want to show your tagline(blog description) below the logo"
+msgstr ""
+
+#: includes/options/settings/settings-general.php:40
+msgid "Sidebar Options"
+msgstr ""
+
+#: includes/options/settings/settings-general.php:46
+msgid "Left Sidebar"
+msgstr ""
+
+#: includes/options/settings/settings-general.php:47
+msgid "Right Sidebar"
+msgstr ""
+
+#: includes/options/settings/settings-general.php:51
+msgid "Footer Content"
+msgstr ""
+
+#: includes/options/settings/settings-general.php:52
+msgid "Enter the content which is displayed in the footer here."
+msgstr ""
+
+#: includes/options/settings/settings-general.php:60
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/options/settings/settings-general.php:61
+msgid "Place your Custom CSS code here."
+msgstr ""

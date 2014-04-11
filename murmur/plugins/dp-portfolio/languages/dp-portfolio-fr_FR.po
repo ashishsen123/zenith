@@ -1,0 +1,219 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: dp-team\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-08 10:30+0100\n"
+"PO-Revision-Date: 2012-10-08 10:34+0100\n"
+"Last-Translator: FxB <fx@fxbenard.com>\n"
+"Language-Team: FxB <fx@fxbenard.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e;_n;"
+"_x;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: dp-portfolio.php:101
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: dp-portfolio.php:102
+msgid "Project"
+msgstr "Projet"
+
+#: dp-portfolio.php:103
+msgid "All Projects"
+msgstr "Tous les projets"
+
+#: dp-portfolio.php:104 dp-portfolio.php:105
+msgid "Add New Project"
+msgstr "Ajouter projet"
+
+#: dp-portfolio.php:106
+msgid "Edit"
+msgstr "Modifier"
+
+#: dp-portfolio.php:107
+msgid "Edit Project"
+msgstr "Modifier le projet"
+
+#: dp-portfolio.php:108
+msgid "New Project"
+msgstr "Nouveau projet"
+
+#: dp-portfolio.php:109
+msgid "View Project"
+msgstr "Voir le projet"
+
+#: dp-portfolio.php:110
+msgid "Search Portfolio"
+msgstr "Rechercher élément du portfolio"
+
+#: dp-portfolio.php:111
+msgid "No projects found"
+msgstr "Aucun projet trouvé"
+
+#: dp-portfolio.php:112
+msgid "No projects found in Trash"
+msgstr "Aucun projet trouvé dans la Corbeille"
+
+#: dp-portfolio.php:140
+msgctxt "plural"
+msgid "Roles"
+msgstr "Rôles"
+
+#: dp-portfolio.php:141
+msgctxt "singular"
+msgid "Role"
+msgstr "Rôle"
+
+#: dp-portfolio.php:142
+msgid "Search Roles"
+msgstr "Rechercher rôles"
+
+#: dp-portfolio.php:143
+msgid "All Roles"
+msgstr "Tous les rôles"
+
+#: dp-portfolio.php:144
+msgid "Edit Role"
+msgstr "Modifier Rôle"
+
+#: dp-portfolio.php:145
+msgid "Update Role"
+msgstr "Mise à jour du Rôle"
+
+#: dp-portfolio.php:146
+msgid "Add New Role"
+msgstr "Ajouter nouveau Rôle"
+
+#: dp-portfolio.php:147
+msgid "New Role Name"
+msgstr "Nouveau nom du rôle"
+
+#: dp-portfolio.php:150
+msgid ""
+"Separate roles with commas. Roles are used to describe the type of services "
+"involved in the project. For examples: wireframing, designing, and coding."
+msgstr ""
+"Séparer les rôles par des virgules. Les rôles sont utilisés pour décrire le "
+"type de services impliqués dans le projet. Par exemple : wireframing, "
+"conception ou le codage."
+
+#: dp-portfolio.php:151
+msgid "Add or remove roles"
+msgstr "Ajouter ou retirer des rôles"
+
+#: dp-portfolio.php:152
+msgid "Choose from the most used roles"
+msgstr "Choisir parmi les rôles les plus utilisés"
+
+#: dp-portfolio.php:153
+msgid "Roles"
+msgstr "Rôles"
+
+#: dp-portfolio.php:173
+msgctxt "plural"
+msgid "Types"
+msgstr "Types"
+
+#: dp-portfolio.php:174
+msgctxt "singular"
+msgid "Type"
+msgstr "Type"
+
+#: dp-portfolio.php:175
+msgid "Search Types"
+msgstr "Rechercher types"
+
+#: dp-portfolio.php:176
+msgid "All Types"
+msgstr "Tous les types"
+
+#: dp-portfolio.php:177
+msgid "Edit Type"
+msgstr "Modifier Type"
+
+#: dp-portfolio.php:178
+msgid "Update Type"
+msgstr "Mise à jour Type"
+
+#: dp-portfolio.php:179
+msgid "Add New Type"
+msgstr "Ajouter nouveau Type"
+
+#: dp-portfolio.php:180
+msgid "New Type Name"
+msgstr "Nom du nouveau Type"
+
+#: dp-portfolio.php:183
+msgid ""
+"Separate types with commas. Types are used to describe the project type. For "
+"examples: residential, commercial, and government."
+msgstr ""
+"Séparer les types par des virgules. Les types sont utilisés pour décrire le "
+"type de projet. Par exemple : privé, commercial ou associatif."
+
+#: dp-portfolio.php:184
+msgid "Add or remove types"
+msgstr "Ajouter ou retirer des types"
+
+#: dp-portfolio.php:185
+msgid "Choose from the most used types"
+msgstr "Choisir parmi les types les plus utilisés"
+
+#: dp-portfolio.php:186
+msgid "Types"
+msgstr "Types"
+
+#: dp-portfolio.php:243
+msgid "Project Info"
+msgstr "Info du Projet"
+
+#: dp-portfolio.php:268
+msgid "Client"
+msgstr "Client"
+
+#: dp-portfolio.php:278
+msgid "URL"
+msgstr "URL"
+
+#: dp-portfolio.php:283
+msgid "The URL this project should link to."
+msgstr "Le lien URL vers lequel ce projet devrait rediriger. "
+
+#: dp-portfolio.php:291
+msgid "Testimonial"
+msgstr "Témoignage"
+
+#~ msgid "Separate roles with commas"
+#~ msgstr "Séparez les rôles par des virgules"
+
+#~ msgid "Team"
+#~ msgstr "Équipe"
+
+#~ msgid "Team Member"
+#~ msgstr "Membre de l'équipe"
+
+#~ msgid "All Team Members"
+#~ msgstr "Tous les membres de l'équipe"
+
+#~ msgid "Edit Member"
+#~ msgstr "Modifier membre"
+
+#~ msgid "View Member"
+#~ msgstr "Voir membre"
+
+#~ msgid "Team Member&#39;s Details"
+#~ msgstr "Détails des membres de l'équipe"
+
+#~ msgid "Member&#39;s Position"
+#~ msgstr "Position du membre"
+
+#~ msgid "The job title, position, or responsibility of the member."
+#~ msgstr "L'intitulé du poste, la position ou la responsabilité du membre."

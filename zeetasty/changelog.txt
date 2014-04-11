@@ -1,0 +1,47 @@
+===================================
+zeeTasty Changelog
+===================================
+
+Version 1.0.6
+-----------------------------------
+[added] featured image header for pages
+[fixed] logo and widget overflow issue
+[fixed] custom color options for frontpage widgets
+
+Version 1.0.5
+-----------------------------------
+[added] unique name for theme options array in the database
+[fixed] different language text domains
+
+Version 1.0.4
+-----------------------------------
+[added] Text Domain in style.css
+[changed] made all text strings translatable
+[fixed] custom header image function
+
+Version 1.0.3
+-----------------------------------
+[added] pluggable function to display custom header image
+[added] allow shortcodes in footer content and frontpage intro text
+[added] template-tags.php file to outsource all template functions
+[fixed] frontpage template loading for static front pages
+[fixed] broken layout issues for Internet Explorer 8
+
+Version 1.0.2
+-----------------------------------
+[added] image.php to display single gallery images
+[changed] replaced query_posts to display recent posts on 404.php
+[changed] escaped all home_url() functions with esc_url()
+[changed] escaped all permalink functions with esc_url()
+[fixed] make big logo images resizeable on mobile devices
+[fixed] select form element overflow bug
+
+Version 1.0.1
+-----------------------------------
+[fixed] sidebar image overflow bug
+[fixed] undefined index on theme options
+[changed] frontpage template loading
+
+Version 1.0
+-----------------------------------
+Initial Release
